@@ -1,3 +1,8 @@
 #logo {
   max-width: 10ch;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
