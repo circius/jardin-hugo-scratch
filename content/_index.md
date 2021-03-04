@@ -1,5 +1,5 @@
 ---
-title: my pages
+title: mes pages
 ---
 
-Some important content
+quelques avertissements importants

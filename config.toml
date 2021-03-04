@@ -1,4 +1,14 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "fr-FR"
 title = "Les Jardins Botaniques de Haut Bretagne"
 theme = "jardin"
+
+DefaultContentLanguage = "fr"
+
+[languages]
+  [languages.fr]
+    title = "Jardins Botaniques de Haut Bretagne"
+    weight = 1
+  [languages.en]
+    title = "Botanical Gardens of Upper Brittany"
+    weight = 2

@@ -1,5 +1,5 @@
 ---
-title: Garden two
+title: Jardin deux
 ---
 
-this is garden two
+ceci est jardin deux
