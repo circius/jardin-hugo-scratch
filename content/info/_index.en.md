@@ -1,4 +1,4 @@
 ---
 title: Practical information
-displayinmenu: true
+menu: "main"
 ---

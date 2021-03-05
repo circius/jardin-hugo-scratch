@@ -1,4 +1,4 @@
 ---
 title: Some gardens
-displayinmenu: true
+menu: "main"
 ---

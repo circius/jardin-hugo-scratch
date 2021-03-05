@@ -1,4 +1,4 @@
 ---
 title: Quelques Jardins
-displayinmenu: true
+main: "main"
 ---

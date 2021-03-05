@@ -1,4 +1,4 @@
 ---
 title: Informations pratiques
-displayinmenu: true
+menu: "main"
 ---
