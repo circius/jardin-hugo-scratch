@@ -13,8 +13,8 @@ DefaultContentLanguage = "fr"
     title = "Botanical Gardens of Upper Brittany"
     weight = 2
 
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
+#[menu]
+#
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "about hugo"
