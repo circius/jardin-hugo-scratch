@@ -4,10 +4,7 @@
             {{ .Site.Title }}
         </a>
     </div>
+    home
         {{ partial "translation-menu.html" . }}
-        <ul id="sectionMenu">
-            {{- range where .Site.Pages "Params.displayinmenu" true -}}
-            <li><a href="{{ .Permalink }}"> {{ .Title }} </a></li>
-            {{ end }}
-        </ul>
+        {{ partial "main-menu.html" . }}
 </nav>
