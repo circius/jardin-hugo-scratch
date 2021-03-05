@@ -1,5 +1,5 @@
 ---
-title:"homepage"
+title: "homepage"
 ---
 
 some important information
