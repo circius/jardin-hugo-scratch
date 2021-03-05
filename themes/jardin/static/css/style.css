@@ -28,12 +28,17 @@ li.active {
   font-style: oblique;
 }
 
-div#hero {
+main {
+  width: 62ch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #hero img {
   width: 100vw;
-  max-height: 300px;
+  max-height: 400px;
+  max-width: 1200px;
   object-fit: cover;
   object-position: top;
 }

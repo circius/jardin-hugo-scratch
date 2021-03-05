@@ -1,4 +1,5 @@
 ---
+title: "homepage"
 resources:
   featuredImage:
     src: "/img/lanterne.jpg"
