@@ -6,3 +6,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
+li.active {
+  font-style: oblique;
+}

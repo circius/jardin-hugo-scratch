@@ -1,10 +1,15 @@
 <ul id="sectionMenu">
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}">{{ .Pre }} <span>{{ .Name }}</span> </a></li>
+            <li class={{ if in .Page.Pages $currentPage }}active{{ end }}>
+                <a href="{{ .URL }}">{{ .Pre }} <span>{{ .Name }}</span> </a>
+            </li>
             {{ with .Page.Pages }}
             <ul>
                 {{ range . }}
-                 <li><a href="{{ .Permalink }}"> <span>{{ .Name }}</span> </a></li>
+                <li class="{{ if eq $currentPage . }}active{{ end }}">
+                     <a href="{{ .Permalink }}"> <span>{{ .Name }}</span> </a>
+                    </li>
                 {{ end }}
             </ul>
             {{ end }}
