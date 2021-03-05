@@ -4,7 +4,8 @@
             <li class={{ if in .Page.Pages $currentPage }}active{{ end }}>
                 <a href="{{ .URL }}">{{ .Pre }} <span>{{ .Name }}</span> </a>
             </li>
-            {{ if or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
+            {{ $showSubmenuP := or (eq $currentPage .Page) (in .Page.Pages $currentPage)}}
+            {{ if $showSubmenuP }}
             {{ with .Page.Pages }}
             <ul>
                 {{ range . }}
