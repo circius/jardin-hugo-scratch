@@ -4,12 +4,28 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Gardens
+- type: directory
+  path: content/info
+  label: Info / fr
+  create: all
+  match: "**/*.md"
+  exclude: "**/.en.md"
 - type: directory
   path: content/info
   label: info / en
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
+- type: heading
+  label: Infos Pratiques
+- type: directory
+  path: content/garden
+  label: Garden / fr
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.en.md"
 - type: directory
   path: content/garden
   label: Garden / en
@@ -18,21 +34,9 @@ sections:
   new_doc_ext: en.md
 - type: directory
   path: content
-  label: Pages
+  label: Individual Pages
   create: all
   match: "*"
-- type: directory
-  path: content/info
-  label: Info / fr
-  create: all
-  match: "**/*.md"
-  exclude: "**/.en.md"
-- type: directory
-  path: content/garden
-  label: Garden / fr
-  create: all
-  match: "**/*.md"
-  exclude: "**/*.en.md"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
