@@ -4,6 +4,7 @@
             <li class={{ if in .Page.Pages $currentPage }}active{{ end }}>
                 <a href="{{ .URL }}">{{ .Pre }} <span>{{ .Name }}</span> </a>
             </li>
+            {{ if or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
             {{ with .Page.Pages }}
             <ul>
                 {{ range . }}
@@ -12,6 +13,7 @@
                     </li>
                 {{ end }}
             </ul>
+            {{ end }}
             {{ end }}
     {{ end }}
 </ul>
