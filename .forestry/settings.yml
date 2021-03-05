@@ -5,11 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/info
+  label: info / en
+  create: all
+  match: "**/*.en.md"
+  new_doc_ext: ".en.md"
+- type: directory
   path: content/garden
   label: Garden / en
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
 - type: directory
   path: content
   label: Pages
@@ -17,9 +23,10 @@ sections:
   match: "*"
 - type: directory
   path: content/info
-  label: Info
+  label: Info / fr
   create: all
-  match: "**/*"
+  match: "**/*.md"
+  exclude: "**/.en.md"
 - type: directory
   path: content/garden
   label: Garden / fr
