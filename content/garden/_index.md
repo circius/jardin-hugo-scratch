@@ -1,4 +1,6 @@
 ---
 title: Quelques Jardins
-menu: "main"
+name: jardins
+menu: main
+showChildrenInMenu: true
 ---

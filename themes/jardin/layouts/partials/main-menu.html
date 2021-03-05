@@ -1,5 +1,12 @@
 <ul id="sectionMenu">
     {{ range .Site.Menus.main }}
             <li><a href="{{ .URL }}">{{ .Pre }} <span>{{ .Name }}</span> </a></li>
+            {{ with .Page.Pages }}
+            <ul>
+                {{ range . }}
+                    <li>{{ .Title }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
     {{ end }}
 </ul>
