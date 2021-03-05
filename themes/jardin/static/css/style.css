@@ -7,6 +7,13 @@ html {
   align-items: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 62ch;
+}
+
 nav {
   width: 72ch;
   display: flex;
@@ -19,4 +26,14 @@ nav #rhs {
 
 li.active {
   font-style: oblique;
+}
+
+div#hero {
+}
+
+#hero img {
+  width: 100vw;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: top;
 }
