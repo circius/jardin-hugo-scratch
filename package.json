@@ -1,0 +1,27 @@
+{
+  "name": "prototype-hugo-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server",
+    "lint": "prettier --check './**/*.html'",
+    "format": "prettier --write './**/*.html'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "which-prettier": "which prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circius/jardin-hugo-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/circius/jardin-hugo-scratch/issues"
+  },
+  "homepage": "https://github.com/circius/jardin-hugo-scratch#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "prettier-plugin-go-template": "0.0.10"
+  }
+}
