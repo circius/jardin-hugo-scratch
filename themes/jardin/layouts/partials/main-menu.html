@@ -1,8 +1,9 @@
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+{{ $currentPage := . }}
+<div class="navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav">
-    {{ $currentPage := . }}
     {{ range.Site.Menus.main }}
-      <li class="nav-item {{ if in .Page.Pages $currentPage }}active{{ end }}">
+      {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
+      <li class="nav-item {{ if $topLinkIsActiveP }}active{{ end }}">
         <a href="{{ .URL }}" class="nav-link"
           >{{ .Pre }} <span>{{ .Name }}</span>
         </a>
@@ -12,8 +13,12 @@
         {{ with.Page.Pages }}
           <ul>
             {{ range . }}
-              <li class="{{ if eq $currentPage . }}active{{ end }}">
-                <a href="{{ .Permalink }}">
+              <li class="nav-item">
+                <a 
+                  href="{{ .RelPermalink }}"
+                  class="nav-link {{ if eq $currentPage . }}active{{ end }}"
+                  {{ if eq $currentPage . }}aria-current="page"{{ end }}
+                  >
                   <span>{{ .Name }}</span>
                 </a>
               </li>
