@@ -1,10 +1,12 @@
 {{ define "title" }}
   {{ .Title }}
 {{ end }}
-{{ with .Params.resources.featuredImage }}
-  <div id="hero">
-    <img src="{{ .src }}" alt="{{ .alt }}" />
-  </div>
+{{ define "hero" }}
+  {{ with .Params.resources.featuredImage }}
+    <div id="hero">
+      <img src="{{ .src }}" alt="{{ .alt }}" />
+    </div>
+  {{ end }}
 {{ end }}
 {{ define "main" }}
   {{ .Content }}
