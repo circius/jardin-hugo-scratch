@@ -1,14 +1,13 @@
 {{ define "hero" }}
-    {{ with .Params.resources.featuredImage }}
-        <img src="{{ .src }}" alt="{{ .alt }}"/>
-    {{ end }}
+  {{ with .Params.resources.featuredImage }}
+    <img src="{{ .src }}" alt="{{ .alt }}" />
+  {{ end }}
 {{ end }}
 
 {{ define "main" }}
-    <main aria-role="main">
-        <div class="homepage-content">
-            {{.Content}}
-        </div>
-    </main>
-{{ end  }}
-
+  <main aria-role="main">
+    <div class="homepage-content">
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}
