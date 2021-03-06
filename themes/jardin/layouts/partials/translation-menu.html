@@ -1,5 +1,7 @@
-<ul>
-    {{ range .Translations }}
-    <li><a href="{{ .RelPermalink }}">{{ .Lang }}</a></li>
-    {{ end }}
+<ul class="navbar-nav">
+  {{ range .Translations }}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ .RelPermalink }}">{{ .Lang }}</a>
+    </li>
+  {{ end }}
 </ul>
