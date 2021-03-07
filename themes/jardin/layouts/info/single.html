@@ -1,0 +1,9 @@
+{{ define "title" }} {{ .Title }} {{ end }}
+
+{{ define "main" }}
+  {{ with .Resources }}
+    {{ range . }}
+      {{ partial "info-section" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
