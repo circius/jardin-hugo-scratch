@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-<div class="navbar-collapse " id="navbarSupportedContent">
+<div class="navbar-collapse collapse" id="navbarSupportedContent">
   <ul class="navbar-nav">
     {{ range.Site.Menus.main }}
       {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
