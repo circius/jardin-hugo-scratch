@@ -8,9 +8,7 @@
     </article>
     <ul>
       {{ range .Pages }}
-        <li>
-          <a href="{{ .Permalink }}"> ({{ .Summary }}) </a>
-        </li>
+        {{ partial "card.html" . }}
       {{ end }}
     </ul>
   </main>
