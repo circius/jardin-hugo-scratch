@@ -1,7 +1,7 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 
 {{ define "main" }}
-  {{ with .Resources }}
+  {{ with .Pages }}
     {{ range . }}
       {{ partial "info-section" . }}
     {{ end }}
