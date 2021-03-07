@@ -1,0 +1,17 @@
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+{{ define "main" }}
+{{ $map := .Resources.GetMatch "map.png" }}
+  <main>
+      <img src="{{ $map }}" class="img-fluid" alt="our map"/>
+    <article>
+      {{ .Content }}
+    </article>
+    <ul>
+      {{ range .Pages }}
+        {{ partial "card.html" . }}
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}
