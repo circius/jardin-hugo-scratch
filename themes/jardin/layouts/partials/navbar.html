@@ -1,24 +1,26 @@
-<header class="d-flex flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
+<header
+  class="d-flex flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm"
+>
   <a class="navbar-brand" href="{{ .Site.BaseURL }}">
     {{ partial "logo.html" . }}
   </a>
-<div class="d-flex flex-row align-items-center">
-  {{ partial "translation-menu.html" . }}
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    {{ partial "main-menu.html" . }}
+  <div class="d-flex flex-row align-items-center">
+    {{ partial "translation-menu.html" . }}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        {{ partial "main-menu.html" . }}
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
 </header>
