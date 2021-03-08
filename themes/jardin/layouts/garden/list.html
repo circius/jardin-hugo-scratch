@@ -8,10 +8,6 @@
     <article>
       {{ .Content }}
     </article>
-    <ul>
-      {{ range .Pages }}
-        {{ partial "card.html" . }}
-      {{ end }}
-    </ul>
+    {{ partial "subpage-cards" .Pages }}
   </main>
 {{ end }}

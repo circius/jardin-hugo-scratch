@@ -1,10 +1,6 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 
 {{ define "main" }}
-  {{ with .Pages }}
-    {{ range . }}
-      {{ partial "card" . }}
-    {{ end }}
-  {{ end }}
+  {{ partial "subpage-cards" .Pages }}
   {{ .Content }}
 {{ end }}
