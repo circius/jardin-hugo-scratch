@@ -1,6 +1,6 @@
 {{ $currentPage := . }}
-<div class="navbar-collapse collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav">
+<div>
+  <ul class="d-flex">
     {{ range.Site.Menus.main }}
       {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
       <li class="nav-item {{ if $topLinkIsActiveP }}active{{ end }}">
@@ -13,7 +13,7 @@
         {{ with.Page.Pages }}
           <ul>
             {{ range . }}
-              <li class="nav-item">
+              <li >
                 <a 
                   href="{{ .RelPermalink }}"
                   class="nav-link {{ if eq $currentPage . }}active{{ end }}"

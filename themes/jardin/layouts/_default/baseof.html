@@ -3,8 +3,8 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "navbar.html" . -}}
-    {{- block "hero" . }}{{- end }}
     <div id="content container">
+      {{- block "hero" . }}{{- end }}
       <h2>{{- block "title" . }}{{- end }}</h2>
       <main>
       {{- block "main" . }}{{- end }}
