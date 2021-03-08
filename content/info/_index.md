@@ -4,7 +4,7 @@ menu: "main"
 type: info
 ---
 
-## nos horaires pour 2020/21
+## nos horaires
 
 **NOUS SOMMES OUVERTS** du 1ère mars au 15ième novembre:
 
