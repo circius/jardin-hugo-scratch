@@ -1,6 +1,11 @@
 {{ define "title" }}
   {{ .Title }}
 {{ end }}
+{{ define "hero" }}
+  {{ with .Resources.GetMatch "hero.*" }}
+    {{ partial "hero" . }}
+  {{ end }}
+{{ end }}
 {{ define "main" }}
   <main>
     <article>

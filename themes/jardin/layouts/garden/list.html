@@ -2,9 +2,9 @@
   {{ .Title }}
 {{ end }}
 {{ define "main" }}
-{{ $map := .Resources.GetMatch "map.png" }}
+  {{ $map := .Resources.GetMatch "map.png" }}
   <main>
-      <img src="{{ $map }}" class="img-fluid" alt="our map"/>
+    <img src="{{ $map }}" class="img-fluid" alt="our map" />
     <article>
       {{ .Content }}
     </article>

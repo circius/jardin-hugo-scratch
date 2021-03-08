@@ -1,9 +1,7 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 {{ define "hero" }}
   {{ with .Resources.GetMatch "hero.*" }}
-    <div id="hero">
-      <img src="{{ .RelPermalink }}" alt="{{ .Params.HeroAlt }}" />
-    </div>
+    {{ partial "hero" . }}
   {{ end }}
 {{ end }}
 {{ define "main" }}
