@@ -3,7 +3,8 @@
 {{ define "main" }}
   {{ with .Pages }}
     {{ range . }}
-      {{ partial "info-section" . }}
+    {{ partial "card" . }}
     {{ end }}
-  {{ end }}
+    {{ end }}
+  {{ .Content }}
 {{ end }}

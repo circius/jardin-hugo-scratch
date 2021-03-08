@@ -3,9 +3,7 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "navbar.html" . -}}
-    <div id="hero">
       {{- block "hero" . }}{{ end }}
-    </div>
     <div id="content">
       <h2>{{- block "title" . }}{{- end }}</h2>
       {{- block "main" . }}{{- end }}

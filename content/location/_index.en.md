@@ -1,0 +1,4 @@
+---
+title: hotel
+menu: main
+---

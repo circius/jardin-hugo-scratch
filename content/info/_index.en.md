@@ -1,5 +1,5 @@
 ---
-title: Informations pratiques
+title: Practical information
 menu: "main"
 type: info
 ---
