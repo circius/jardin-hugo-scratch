@@ -3,12 +3,12 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "navbar.html" . -}}
-    <div id="content container">
+    <div id="content container px-5">
       {{- block "hero" . }}{{- end }}
-      <h2>{{- block "title" . }}{{- end }}</h2>
+      <h1>{{- block "title" . }}{{- end }}</h1>
       <main>
-      {{- block "main" . }}{{- end }}
-    </main>
+        {{- block "main" . }}{{- end }}
+      </main>
     </div>
     {{- partial "footer.html" . -}}
   </body>

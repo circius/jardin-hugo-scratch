@@ -4,11 +4,11 @@
   <body>
     {{- partial "navbar.html" . -}}
     <div id="content container">
-        {{- block "hero" . }}{{ end }}
+      {{- block "hero" . }}{{ end }}
       <h2>{{- block "title" . }}{{- end }}</h2>
       <main>
-      {{- block "main" . }}{{- end }}
-    </main>
+        {{- block "main" . }}{{- end }}
+      </main>
     </div>
     {{- partial "footer.html" . -}}
   </body>

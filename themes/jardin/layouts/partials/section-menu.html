@@ -1,0 +1,16 @@
+{{ $currentPage := . }}
+{{ with.Page.Pages }}
+<ul>
+  {{ range . }}
+    <li >
+      <a 
+        href="{{ .RelPermalink }}"
+        class="{{ if eq $currentPage . }}active{{ end }}"
+        {{ if eq $currentPage . }}aria-current="page"{{ end }}
+        >
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

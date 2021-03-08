@@ -1,14 +1,21 @@
-<header class="d-flex">
-<div id="lhs">
-  <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-    {{ partial "logo.html" . }}
-  </a>
-  {{ partial "translation-menu" . }}
-</div>
-
-  <div id="rhs">
-    <nav>
-        {{ partial "main-menu.html" . }}
-    </nav>
-  </div>
+<header class="navbar navbar-expand-md navbar-light bd-navbar">
+  <nav class="container-fluid">
+    <a class="navbar-brand" href="/">
+      {{ partial "logo.html" . }}
+    </a>
+    <div
+      id="navBar"
+      class="navbar-collapse collapse align-items-center justify-content-center"
+    >
+      {{ partial "main-menu.html" . }}
+    </div>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navBar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
 </header>

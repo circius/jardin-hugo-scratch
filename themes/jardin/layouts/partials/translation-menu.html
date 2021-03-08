@@ -1,7 +1,18 @@
-<ul class="navbar-nav">
-  {{ range .Translations }}
-    <li class="nav-item">
-      <a class="nav-link" href="{{ .RelPermalink }}">{{ .Lang }}</a>
-    </li>
-  {{ end }}
-</ul>
+<div class="dropdown">
+  <button
+    class="btn btn-light dropdown-toggle p-0"
+    type="button"
+    id="langDropdownButton"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    {{ .Language.Lang }}
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
+    {{ range .Translations }}
+      <li>
+        <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Lang }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>

@@ -1,6 +1,6 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 
 {{ define "main" }}
-  {{ partial "subpage-cards" .Pages }}
+  {{ .TableOfContents }}
   {{ .Content }}
 {{ end }}

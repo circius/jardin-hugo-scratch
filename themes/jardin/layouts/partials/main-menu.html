@@ -1,31 +1,16 @@
 {{ $currentPage := . }}
-<div>
-  <ul class="d-flex">
-    {{ range.Site.Menus.main }}
-      {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
-      <li class="nav-item {{ if $topLinkIsActiveP }}active{{ end }}">
-        <a href="{{ .URL }}" class="nav-link"
-          >{{ .Pre }} <span>{{ .Name }}</span>
-        </a>
-      </li>
-      {{ $showSubmenuP := and false (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
-      {{ if $showSubmenuP }}
-        {{ with.Page.Pages }}
-          <ul>
-            {{ range . }}
-              <li >
-                <a 
-                  href="{{ .RelPermalink }}"
-                  class="nav-link {{ if eq $currentPage . }}active{{ end }}"
-                  {{ if eq $currentPage . }}aria-current="page"{{ end }}
-                  >
-                  <span>{{ .Name }}</span>
-                </a>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  </ul>
-</div>
+<ul class="nav d-flex flex-column flex-md-row mb-3 ps-2 align-items-center">
+  {{ range.Site.Menus.main }}
+    {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
+    <li class="nav-item">
+      <a
+        href="{{ .URL }}"
+        class="nav-link {{ if $topLinkIsActiveP }}active{{ end }}"
+        >{{ .Pre }} <span>{{ .Name }}</span>
+      </a>
+    </li>
+  {{ end }}
+  <li class="nav-item">
+    {{ partial "translation-menu" . }}
+  </li>
+</ul>
