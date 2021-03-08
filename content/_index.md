@@ -2,7 +2,7 @@
 title: "homepage"
 resources:
   featuredImage:
-    src: "/img/lanterne.jpg"
+    src: "/img/hero.jpg"
     alt: "red cuts the green."
 ---
 
