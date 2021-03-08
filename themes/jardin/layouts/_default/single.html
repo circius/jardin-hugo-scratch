@@ -1,8 +1,8 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 {{ define "hero" }}
-  {{ with .Params.resources.featuredImage }}
+  {{ with .Resources.GetMatch "hero.*" }}
     <div id="hero">
-      <img src="{{ .src }}" alt="{{ .alt }}" />
+      <img src="{{ .RelPermalink }}" alt="{{ .Params.HeroAlt }}" />
     </div>
   {{ end }}
 {{ end }}
