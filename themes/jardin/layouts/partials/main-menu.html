@@ -8,7 +8,7 @@
           >{{ .Pre }} <span>{{ .Name }}</span>
         </a>
       </li>
-      {{ $showSubmenuP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
+      {{ $showSubmenuP := and false (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
       {{ if $showSubmenuP }}
         {{ with.Page.Pages }}
           <ul>
