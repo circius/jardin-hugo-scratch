@@ -5,7 +5,9 @@
     {{- partial "navbar.html" . -}}
     <div id="content container px-5">
       {{- block "hero" . }}{{- end }}
-      <h1>{{- block "title" . }}{{- end }}</h1>
+      <h1 class="text-center">
+        {{- block "title" . }}{{- end }}
+      </h1>
       <main>
         {{- block "main" . }}{{- end }}
       </main>

@@ -1,21 +1,21 @@
 <header class="navbar navbar-expand-md navbar-light bd-navbar">
-  <nav class="container-fluid">
-    <a class="navbar-brand" href="/">
-      {{ partial "logo.html" . }}
-    </a>
+  <a class="navbar-brand" href="/">
+    {{ partial "logo.html" . }}
+  </a>
+  <button
+  class="navbar-toggler collapsed"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navBar"
+>
+  <span class="navbar-toggler-icon"></span>
+</button>
     <div
       id="navBar"
       class="navbar-collapse collapse align-items-center justify-content-center"
     >
+    <nav class="container-fluid">
       {{ partial "main-menu.html" . }}
     </div>
-    <button
-      class="navbar-toggler collapsed"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navBar"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
   </nav>
 </header>
