@@ -12,6 +12,9 @@ DefaultContentLanguage = "fr"
   [languages.en]
     title = "Botanical Gardens of Upper Brittany"
     weight = 2
+  [languages.es]
+    title = "jardines botánicos de alta bretaña"
+    weight = 3
 
 #[menu]
 #
