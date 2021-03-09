@@ -6,3 +6,12 @@ h2 {
 li.active {
   font-style: oblique;
 }
+
+div#hero {
+  height: 400px;
+  width: 100vw;
+  max-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
