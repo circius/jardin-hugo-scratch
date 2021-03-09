@@ -2,7 +2,7 @@
 <html lang="{{ .Lang }}">
   {{- partial "head.html" . -}}
     {{- partial "navbar.html" . -}}
-    <div class="content container overflow-hidden">
+    <div class="content container overflow-hidden d-flex flex-column">
       {{- block "hero" . }}{{ end }}
       <h2>{{- block "title" . }}{{- end }}</h2>
       <main>
