@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
   {{- partial "head.html" . -}}
-  <body>
     {{- partial "navbar.html" . -}}
-    <div id="content container">
+    <div class="content container overflow-hidden">
       {{- block "hero" . }}{{ end }}
       <h2>{{- block "title" . }}{{- end }}</h2>
       <main>
