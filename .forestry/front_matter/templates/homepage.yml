@@ -20,3 +20,5 @@ fields:
       name: alt
       label: alt
   hidden: true
+pages:
+- content/_index.md
