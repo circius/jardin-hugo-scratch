@@ -8,4 +8,7 @@
   <div class="homepage-content">
     {{ .Content }}
   </div>
+  {{ with .Site.Menus.quicklinks }}
+    {{ partial "link-cards" . }}
+  {{ end }}
 {{ end }}
