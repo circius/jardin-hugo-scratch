@@ -20,13 +20,20 @@ DefaultContentLanguage = "fr"
     title = "Botanical Gardens of Upper Brittany"
     weight = 2
 
-  #[[languages.en.menu.quicklinks]]
-  #  identifier = "about"
-  #  name = "about Hugo"
+    [[languages.en.menu.quicklinks]]
+      title = "Our opening hours"
+      url = "/en/info/#horaires"
+      summary = ""  
+
 
   [languages.es]
     title = "jardines botánicos de alta bretaña"
     weight = 3
+
+    #[[languages.es.menu.quicklinks]]
+  #  title = "nuestros horarios"
+  #  url = "/info/#horaires"
+  #  summary = ""  
 #
   #[[languages.es.menu.quicklinks]]
   #  identifier = "sobre"
