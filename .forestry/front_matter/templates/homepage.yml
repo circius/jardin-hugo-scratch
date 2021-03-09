@@ -19,6 +19,6 @@ fields:
     - type: text
       name: alt
       label: alt
-  hidden: true
+  hidden: false
 pages:
 - content/_index.md
