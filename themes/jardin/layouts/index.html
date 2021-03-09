@@ -1,5 +1,5 @@
 {{ define "hero" }}
-  {{ with .Resources.GetMatch "hero.*" }}
+  {{ with .Params.Resources.featuredImage }}
     {{ partial "hero" . }}
   {{ end }}
 {{ end }}
