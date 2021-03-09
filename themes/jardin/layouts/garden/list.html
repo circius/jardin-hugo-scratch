@@ -3,11 +3,9 @@
 {{ end }}
 {{ define "main" }}
   {{ $map := .Resources.GetMatch "map.png" }}
-  <main>
-    <img src="{{ $map }}" class="img-fluid" alt="our map" />
-    <article>
-      {{ .Content }}
-    </article>
-    {{ partial "subpage-cards" .Pages }}
-  </main>
+  <img src="{{ $map }}" class="img-fluid" alt="our map" />
+  <article>
+    {{ .Content }}
+  </article>
+  {{ partial "subpage-cards" .Pages }}
 {{ end }}
