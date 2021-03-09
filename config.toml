@@ -6,18 +6,28 @@ theme = "jardin"
 DefaultContentLanguage = "fr"
 
 [languages]
+
   [languages.fr]
     title = "Jardins Botaniques de Haut Bretagne"
     weight = 1
+
+  [[languages.fr.menu.quicklinks]]
+    title = "nos horaires"
+    url = "/info/#horaires"
+    summary = ""  
+
   [languages.en]
     title = "Botanical Gardens of Upper Brittany"
     weight = 2
+
+  #[[languages.en.menu.quicklinks]]
+  #  identifier = "about"
+  #  name = "about Hugo"
+
   [languages.es]
     title = "jardines botánicos de alta bretaña"
     weight = 3
-
-#[menu]
 #
-#  [[menu.main]]
-#    identifier = "about"
-#    name = "about hugo"
+  #[[languages.es.menu.quicklinks]]
+  #  identifier = "sobre"
+  #  name = "sobre Hugo"
