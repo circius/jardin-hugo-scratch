@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-<ul class="nav d-flex flex-column flex-md-row mb-3 ps-2 align-items-center">
+<ul class="menu__ul">
   {{ range.Site.Menus.main }}
     {{ $topLinkIsActiveP := or (eq $currentPage .Page) (in .Page.Pages $currentPage) }}
     <li class="nav-item">

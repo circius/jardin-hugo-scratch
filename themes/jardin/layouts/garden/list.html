@@ -2,16 +2,16 @@
   {{ .Title }}
 {{ end }}
 {{ define "main" }}
-  <div class="d-flex flex-column align-items-centre flex-lg-row flex-lg-wrap">
+  <div class="garden_container">
     {{ $map := .Resources.GetMatch "map.png" }}
-    <img src="{{ $map }}" class="img-fluid" alt="our map" />
+    <img src="{{ $map }}" class="img_fluid" alt="our map" />
     {{ with .Content }}
-    <article>
-      {{ . }}
-    </article>
+      <article>
+        {{ . }}
+      </article>
     {{ end }}
     {{ with .Pages }}
-      <div>
+      <div class="garden_cardlist">
         {{ range . }}
           {{ partial "card.html" . }}
         {{ end }}

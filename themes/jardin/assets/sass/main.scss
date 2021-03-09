@@ -1,4 +1,4 @@
-@import "./bootstrap/bootstrap.scss";
+@import "bootstrap/bootstrap";
 
 h1,
 h2 {
@@ -16,4 +16,48 @@ div#hero {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.cardlist {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .align-items-center;
+  @extend .flex-md-row;
+  @extend .justify-content-md-around;
+}
+
+.garden_cardlist {
+  @extend .container-fluid;
+}
+
+.garden_container {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-lg-row;
+}
+
+.cardlist__card {
+  @extend .card;
+  @extend .m-3;
+}
+
+#hero {
+  @extend .align-self-center;
+}
+
+.menu__ul {
+  @extend .nav;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-md-row;
+  @extend .mb-3;
+  @extend .ps-2;
+  @extend .align-items-center;
+}
+
+header {
+  @extend .navbar;
+  @extend .navbar-expand-md;
+  @extend .navbar-light;
+  @extend .container;
 }
