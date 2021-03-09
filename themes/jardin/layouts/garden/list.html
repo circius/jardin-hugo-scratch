@@ -2,10 +2,12 @@
   {{ .Title }}
 {{ end }}
 {{ define "main" }}
-  {{ $map := .Resources.GetMatch "map.png" }}
-  <img src="{{ $map }}" class="img-fluid" alt="our map" />
-  <article>
-    {{ .Content }}
-  </article>
-  {{ partial "subpage-cards" .Pages }}
+  <div class="d-md-flex flex-md-row">
+    {{ $map := .Resources.GetMatch "map.png" }}
+    <img src="{{ $map }}" class="img-fluid" alt="our map" />
+    <article>
+      {{ .Content }}
+    </article>
+    {{ partial "subpage-cards" .Pages }}
+  </div>
 {{ end }}
