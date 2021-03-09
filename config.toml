@@ -9,7 +9,9 @@ DefaultContentLanguage = "fr"
 
   [languages.fr]
     title = "Jardins Botaniques de Haut Bretagne"
-    weight = 1
+    contentDir = "content/french"
+    languageName = "Français"
+    weight = 10
 
   [[languages.fr.menu.quicklinks]]
     title = "nos horaires"
@@ -18,7 +20,9 @@ DefaultContentLanguage = "fr"
 
   [languages.en]
     title = "Botanical Gardens of Upper Brittany"
-    weight = 2
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 20
 
     [[languages.en.menu.quicklinks]]
       title = "Our opening hours"
@@ -28,6 +32,8 @@ DefaultContentLanguage = "fr"
 
   [languages.es]
     title = "jardines botánicos de alta bretaña"
+    contentDir = "content/spanish"
+    languageName = "Spanish"
     weight = 3
 
     #[[languages.es.menu.quicklinks]]
