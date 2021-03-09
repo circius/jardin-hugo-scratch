@@ -1,4 +1,4 @@
 ---
 title: botanical collection
-menu: main
+menu: [main, quicklinks]
 ---

@@ -1,4 +1,4 @@
 ---
-title: Annual Events
-menu: main
+title: Évènements Annuels
+menu: [quicklinks, main]
 ---
