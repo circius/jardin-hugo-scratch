@@ -1,0 +1,7 @@
+{{/* https://zwbetz.com/style-a-markdown-table-with-bootstrap-classes-in-hugo/ */}}
+{{ $htmlTable := .Inner | markdownify }}
+{{ $class := "table table-light table-striped table-bordered" }}
+{{ $old := "<table>" }}
+{{ $new := printf "<table class=\"%s\">" $class }}
+{{ $htmlTable := replace $htmlTable $old $new }}
+{{ $htmlTable | safeHTML }}

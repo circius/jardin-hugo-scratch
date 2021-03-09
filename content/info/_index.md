@@ -14,20 +14,21 @@ type: info
 
 ## tarifs
 
+{{< bootstrap-table >}}
+
 |                                            |                                                       |
 | ------------------------------------------ | ----------------------------------------------------- |
 | **En mars, octobre et novembre:**          | plein tarif: 8,90€                                    |
-|                                            | tarif réduit: 7,90€                                   |
+|                                            | tarif réduit\*: 7,90€                                 |
 |                                            | tarif enfant (5-12 ans): 6,90€                        |
 | **En avril, juillet, octobre et novembre** | plein tarif: 8,90€                                    |
 |                                            | tarif réduit\*: 7,90€                                 |
-|                                            |                                                       |
 | **abonnement**                             | 18 ans et +: 26€                                      |
 |                                            | -18 ans: 13€                                          |
-|                                            |                                                       |
-| **pour les groupes large**                 | voir [ici](/groupes)                                  |
-|                                            |                                                       |
+| **pour les groupes large**                 | voir [ici]({{< ref "groupes" >}})                     |
 | **moyens de paiment**                      | espèces, chèques, cartes bancaires, chèques vancances |
+
+{{< /bootstrap-table >}}
 
 ## nous trouver
 
