@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/circius/jardin-hugo-scratch#readme",
   "devDependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "npm": "^7.6.1",
     "prettier": "^2.2.1",
     "prettier-plugin-go-template": "0.0.10"
   }
