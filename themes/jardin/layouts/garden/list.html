@@ -10,5 +10,12 @@
       {{ . }}
     </article>
     {{ end }}
+    {{ with .Pages }}
+      <ul class="d-flex flex-column align-items-start">
+        {{ range . }}
+          {{ partial "card.html" . }}
+        {{ end }}
+      </ul>
+    {{ end }}
   </div>
 {{ end }}
