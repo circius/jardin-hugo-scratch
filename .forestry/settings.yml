@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: data/carousel.toml
-  label: carousel
-  match: "**/*"
 - type: directory
   path: content/spanish
   label: spanish
@@ -25,6 +21,9 @@ sections:
   match: "**/*"
 - type: heading
   label: Settings
+- type: document
+  path: data/carousel.toml
+  label: carousel
 - type: document
   path: config.toml
   label: config
