@@ -4,5 +4,8 @@
     {{ with .Page }}
       {{ .Summary }}
     {{ end }}
+    {{ with .Post }}
+      {{ . }}
+    {{ end }}
   </div>
 </div>

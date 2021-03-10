@@ -24,10 +24,10 @@ DefaultContentLanguage = "fr"
     languageName = "English"
     weight = 20
 
-    [[languages.en.menu.quicklinks]]
+    [[menu.quicklinks]]
       title = "Our opening hours"
       url = "/en/info/#horaires"
-      summary = ""  
+      post = "when you can visit"  
 
 
   [languages.es]
