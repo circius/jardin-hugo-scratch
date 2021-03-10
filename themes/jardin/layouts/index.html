@@ -4,6 +4,12 @@
   {{ end }}
 {{ end }}
 
+{{ define "subtitle" }}
+  {{ with .Params.Subtitle }}
+    {{ . }}
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
   <div class="homepage-content">
     {{ .Content }}

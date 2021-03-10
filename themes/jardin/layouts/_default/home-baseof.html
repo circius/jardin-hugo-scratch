@@ -3,8 +3,10 @@
   {{- partial "head.html" . -}}
     {{- partial "navbar.html" . -}}
     <div class="content container overflow-hidden d-flex flex-column">
+      <h1 class="homepage__title"> {{ .Site.Title }} </h1>
       {{- block "hero" . }}{{ end }}
-      <h2>{{- block "title" . }}{{- end }}</h2>
+      <h1 class="text-center">{{- block "subtitle" . }}{{- end }}</h1>
+      {{- partial "alert" . -}}
       <main>
         {{- block "main" . }}{{- end }}
       </main>

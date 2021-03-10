@@ -1,0 +1,5 @@
+{{ with .Params.announcement }}
+  <p class="home__alert">
+    {{ . | markdownify }}
+  </p>
+{{ end }}
