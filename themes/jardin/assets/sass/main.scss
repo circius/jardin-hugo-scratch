@@ -61,3 +61,8 @@ header {
   @extend .navbar-light;
   @extend .container;
 }
+
+.carousel-item {
+  max-height: 705px;
+}
+
