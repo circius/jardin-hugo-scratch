@@ -1,0 +1,7 @@
+---
+label: carousel
+hide_body: true
+fields:
+- type: image_gallery
+  name: images
+  label: images
