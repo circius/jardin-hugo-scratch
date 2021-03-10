@@ -1,12 +1,10 @@
 baseURL = "/"
 languageCode = "fr-FR"
-title = "Les Jardins Botaniques de Haut Bretagne"
 theme = "jardin"
 
 DefaultContentLanguage = "fr"
 
 [languages]
-
   [languages.fr]
     title = "Jardins Botaniques de Haut Bretagne"
     contentDir = "content/french"

@@ -1,6 +1,6 @@
 {{ define "hero" }}
-  {{ with .Params.Resources.featuredImage }}
-    {{ partial "hero" . }}
+  {{ with  .Site.Data.carousel.images }}
+    {{ partial "carousel" . }}
   {{ end }}
 {{ end }}
 
