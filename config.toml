@@ -15,7 +15,7 @@ weight = 3
 [languages.fr]
 contentDir = "content/french"
 languageName = "Français"
-title = "Jardin Botanique de Haut Bretagne"
+title = "Parc botanique de Haute Bretagne"
 weight = 10
 [[languages.fr.menu.quicklinks]]
 post = "quand visiter?"
