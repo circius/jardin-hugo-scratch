@@ -62,8 +62,11 @@ header {
   @extend .container;
 }
 
-.carousel-item {
-  max-height: 705px;
+.carousel img {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .home__alert {
