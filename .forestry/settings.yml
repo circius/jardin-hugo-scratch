@@ -23,17 +23,17 @@ sections:
 - type: directory
   path: content/spanish
   label: spanish
-  create: all
+  create: single-column-page
   match: "**/*"
 - type: directory
   path: content/french
   label: french
-  create: all
+  create: single-column-page
   match: "**/*"
 - type: directory
   path: content/english
   label: english
-  create: all
+  create: single-column-page
   match: "**/*"
 - type: heading
   label: Settings
