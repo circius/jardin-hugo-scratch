@@ -27,7 +27,6 @@ DefaultContentLanguage = "fr"
       url = "/en/info/#horaires"
       post = "when you can visit"  
 
-
   [languages.es]
     title = "jardines botánicos de alta bretaña"
     contentDir = "content/spanish"
