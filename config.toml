@@ -14,7 +14,7 @@ DefaultContentLanguage = "fr"
   [[languages.fr.menu.quicklinks]]
     title = "nos horaires"
     url = "/info/#horaires"
-    summary = ""  
+    post = "quand visiter?"  
 
   [languages.en]
     title = "Botanical Gardens of Upper Brittany"
