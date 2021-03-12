@@ -1,4 +1,5 @@
 ---
 subtitle: Bienvenue aux jardins
-announcement: Quelques renseignments importants -> [ici](/en/info/groupes/)
+announcement: Quelques infos importants -> [ici](/en/info/groupes/)
+
 ---
