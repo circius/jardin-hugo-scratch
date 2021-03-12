@@ -14,5 +14,3 @@ les groupes d'adultes aussi
 ## autres groupes
 
 ils n'existent pas
-
-[pdf](/uploads/working-new-yorker-trump-betrays-kurds-2021-03-12.pdf "a pdf")
