@@ -1,0 +1,25 @@
+---
+label: homepage
+hide_body: false
+fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: summary
+    label: summary
+  - type: field_group
+    name: resources
+    label: resources
+    fields:
+      - type: field_group
+        name: featuredImage
+        label: featuredImage
+        fields:
+          - type: file
+            name: src
+            label: src
+          - type: text
+            name: alt
+            label: alt
+    hidden: false
