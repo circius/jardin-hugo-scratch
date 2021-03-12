@@ -9,31 +9,28 @@ sections:
 - type: document
   path: content/spanish/_index.md
   label: homepage / es
-  match: "**/*"
 - type: document
   path: content/english/_index.md
   label: homepage / en
-  match: "**/*"
 - type: document
   path: content/french/_index.md
   label: homepage / fr
-  match: "**/*"
 - type: heading
   label: main content
 - type: directory
   path: content/spanish
   label: spanish
-  create: single-column-page
+  create: all
   match: "**/*"
 - type: directory
   path: content/french
   label: french
-  create: single-column-page
+  create: all
   match: "**/*"
 - type: directory
   path: content/english
   label: english
-  create: single-column-page
+  create: all
   match: "**/*"
 - type: heading
   label: Settings

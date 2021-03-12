@@ -1,43 +1,27 @@
+DefaultContentLanguage = "fr"
 baseURL = "/"
 languageCode = "fr-FR"
 theme = "jardin"
-
-DefaultContentLanguage = "fr"
-
-[languages]
-  [languages.fr]
-    title = "Jardins Botaniques de Haut Bretagne"
-    contentDir = "content/french"
-    languageName = "Français"
-    weight = 10
-
-  [[languages.fr.menu.quicklinks]]
-    title = "nos horaires"
-    url = "/info/#horaires"
-    post = "quand visiter?"  
-
-  [languages.en]
-    title = "Botanical Gardens of Upper Brittany"
-    contentDir = "content/english"
-    languageName = "English"
-    weight = 20
-
-    [[menu.quicklinks]]
-      title = "Our opening hours"
-      url = "/en/info/#horaires"
-      post = "when you can visit"  
-
-  [languages.es]
-    title = "jardines botánicos de alta bretaña"
-    contentDir = "content/spanish"
-    languageName = "Spanish"
-    weight = 3
-
-    #[[languages.es.menu.quicklinks]]
-  #  title = "nuestros horarios"
-  #  url = "/info/#horaires"
-  #  summary = ""  
-#
-  #[[languages.es.menu.quicklinks]]
-  #  identifier = "sobre"
-  #  name = "sobre Hugo"
+[languages.en]
+contentDir = "content/english"
+languageName = "English"
+title = "Botanical Gardens of Upper Brittany"
+weight = 20
+[languages.es]
+contentDir = "content/spanish"
+languageName = "Spanish"
+title = "jardines botánicos de alta bretaña"
+weight = 3
+[languages.fr]
+contentDir = "content/french"
+languageName = "Français"
+title = "Jardin Botanique de Haut Bretagne"
+weight = 10
+[[languages.fr.menu.quicklinks]]
+post = "quand visiter?"
+title = "nos horaires"
+url = "/info/#horaires"
+[[menu.quicklinks]]
+post = "when you can visit"
+title = "Our opening hours"
+url = "/en/info/#horaires"
