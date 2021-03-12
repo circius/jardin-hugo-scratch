@@ -18,6 +18,10 @@ languageName = "Français"
 title = "Parc botanique de Haute Bretagne"
 weight = 10
 [[languages.fr.menu.quicklinks]]
+post = "something very important"
+title = "something important"
+url = "/"
+[[languages.fr.menu.quicklinks]]
 post = "quand visiter?"
 title = "nos horaires"
 url = "/info/#horaires"
