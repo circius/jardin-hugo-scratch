@@ -4,6 +4,22 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: homepage
+- type: document
+  path: content/spanish/_index.md
+  label: homepage / es
+  match: "**/*"
+- type: document
+  path: content/english/_index.md
+  label: homepage / en
+  match: "**/*"
+- type: document
+  path: content/french/_index.md
+  label: homepage / fr
+  match: "**/*"
+- type: heading
+  label: main content
 - type: directory
   path: content/spanish
   label: spanish

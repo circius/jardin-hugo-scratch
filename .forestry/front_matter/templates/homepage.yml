@@ -2,7 +2,7 @@
 label: homepage
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-    hidden: false
+- type: text
+  name: title
+  label: title
+  hidden: false
