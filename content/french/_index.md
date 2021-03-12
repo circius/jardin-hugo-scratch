@@ -1,9 +1,4 @@
 ---
 subtitle: Bienvenue aux jardins
-resources:
-  featuredImage:
-    src: "/uploads/dsc_0054-2021-03-09.jpeg"
-    alt: " violet et vert dans le jardin!"
+announcement: Quelques renseignments importants -> [ici](/en/info/groupes/)
 ---
-
-quelques avertissements importants
