@@ -32,6 +32,12 @@ fields:
     config:
       maxSize: 1
     label: image
+  - name: image-alt
+    type: text
+    config:
+      required: false
+    label: image-alt
+    description: alt-text for the image (important for accessibility)
   config:
     min: 
     max: 
