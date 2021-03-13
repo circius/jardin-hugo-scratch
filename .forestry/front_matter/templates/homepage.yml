@@ -10,3 +10,5 @@ fields:
   name: announcement
   label: announcement
   hidden: false
+pages:
+- content/french/_index.md
