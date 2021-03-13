@@ -38,4 +38,5 @@ fields:
     labelField: 
   label: feature
 pages:
+- content/english/_index.md
 - content/french/_index.md
