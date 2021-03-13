@@ -17,4 +17,8 @@
   {{ with .Site.Menus.quicklinks }}
     {{ partial "link-cards" . }}
   {{ end }}
+
+  {{ with .Params.feature }}
+    {{ partial "homepage-features" . }}
+  {{ end }}
 {{ end }}

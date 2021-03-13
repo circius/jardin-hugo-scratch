@@ -5,6 +5,11 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h1 {
+  @extend .pb-5;
+  @extend .pb-3;
+}
+
 li.active {
   font-style: oblique;
 }
@@ -24,6 +29,7 @@ div#hero {
   @extend .align-items-center;
   @extend .flex-md-row;
   @extend .justify-content-md-around;
+  @extend .align-items-md-start;
 }
 
 .garden_cardlist {
@@ -39,6 +45,19 @@ div#hero {
 .cardlist__card {
   @extend .card;
   @extend .m-3;
+  width: 18rem;
+  height: 10rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .cardlist__card {
+  }
+}
+
+.homepage__card {
+  @extend .card;
+  width: 18rem;
+  @extend .border;
 }
 
 #hero {
@@ -78,10 +97,14 @@ header {
   }
 }
 
-.home__alert {
-  @extend .text-center;
-  @extend .border;
-  @extend .p-2;
-  @extend .text-danger;
-  @extend .fs-1;
+#homepage__alert {
+  @extend .alert;
+  @extend .alert-info;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+}
+
+#homepage__alert a {
+  @extend .alert-link;
 }
