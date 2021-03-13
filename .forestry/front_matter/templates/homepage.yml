@@ -10,5 +10,32 @@ fields:
   name: announcement
   label: announcement
   hidden: false
+- name: feature
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: text
+  - name: image
+    type: file
+    config:
+      maxSize: 1
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: feature
 pages:
 - content/french/_index.md
