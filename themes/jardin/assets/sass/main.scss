@@ -5,9 +5,10 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h1 {
-  @extend .pb-5;
+.homepage__subtitle {
+  @extend .text-center;
   @extend .pb-3;
+  @extend .pt-4;
 }
 
 li.active {
@@ -28,8 +29,8 @@ div#hero {
   @extend .flex-column;
   @extend .align-items-center;
   @extend .flex-md-row;
-  @extend .justify-content-md-around;
-  @extend .align-items-md-start;
+  @extend .justify-content-md-center;
+  @extend .flex-wrap;
 }
 
 .garden_cardlist {
@@ -44,13 +45,15 @@ div#hero {
 
 .cardlist__card {
   @extend .card;
-  @extend .m-3;
-  width: 18rem;
-  height: 10rem;
+  @extend .w-100;
+  @extend .m-2;
 }
 
 @media only screen and (min-width: 600px) {
   .cardlist__card {
+    width: 20rem;
+    max-width: 20rem;
+    height: content-fit;
   }
 }
 
@@ -58,6 +61,36 @@ div#hero {
   @extend .card;
   width: 18rem;
   @extend .border;
+  @extend .border-dark;
+  @extend .m-3;
+}
+
+.homepage__cardlist {
+  @extend .cardlist;
+}
+
+@media only screen and (min-width: 600px) {
+  .homepage__card {
+    flex-direction: row;
+    width: 40rem;
+    height: 14rem;
+  }
+  .homepage__card img {
+    object-fit: cover;
+    max-width: 15rem;
+  }
+}
+
+.homepage__main {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-between;
+}
+
+@media only screen and (min-width: 600px) {
+  .homepage__main {
+    display: flex;
+  }
 }
 
 #hero {

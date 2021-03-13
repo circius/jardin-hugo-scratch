@@ -5,9 +5,10 @@
     <div class="content container overflow-hidden d-flex flex-column">
       <h1 class="homepage__title"> {{ .Site.Title }} </h1>
       {{- block "hero" . }}{{ end }}
-      <h1 class="text-center">{{- block "subtitle" . }}{{- end }}</h1>
       {{- partial "alert" . -}}
-      <main>
+      <h2 class="homepage__subtitle">{{- block "subtitle" . }}{{- end }}</h2>
+  
+      <main class="homepage__main">
         {{- block "main" . }}{{- end }}
       </main>
     </div>
