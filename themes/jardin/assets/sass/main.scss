@@ -34,13 +34,33 @@ div#hero {
 }
 
 .garden_cardlist {
-  @extend .container-fluid;
+  @extend .align-items-start;
+  @extend .d-flex;
+  @extend .flex-xl-column;
+  @extend .flex-wrap;
+}
+
+.garden__card {
+  @extend .card;
+  @extend .flex-row;
+  width: 16rem;
+  height: 10rem;
+  @extend .border;
+  @extend .border-dark;
+  @extend .m-3;
+  @extend .flex-grow-1;
+  @extend .flex-xl-grow-0;
+}
+
+.garden__card img {
+  object-fit: cover;
+  max-width: 15rem;
 }
 
 .garden_container {
   @extend .d-flex;
   @extend .flex-column;
-  @extend .flex-lg-row;
+  @extend .flex-xl-row;
 }
 
 .cardlist__card {
