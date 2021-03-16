@@ -7,9 +7,14 @@ h2 {
 }
 
 .homepage__content__container {
-  @extend .container;
+  @extend .container-fluid;
   @extend .overflow-hidden;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .p-0;
+  
 }
+
 .homepage__subtitle {
   @extend .text-center;
   @extend .pb-3;
