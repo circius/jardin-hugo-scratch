@@ -5,13 +5,14 @@
     <div class="homepage__content__container">
       <h1 class="title"> {{ .Site.Title }} </h1>
       {{- block "hero" . }}{{ end }}
-      {{- partial "alert" . -}}
+      
       <h2 class="homepage__subtitle">{{- block "subtitle" . }}{{- end }}</h2>
-  
+      
       <main class="homepage__main">
         {{- block "main" . }}{{- end }}
       </main>
     </div>
     {{- partial "footer.html" . -}}
+    {{- partial "alert" . -}}  
   </body>
 </html>

@@ -23,15 +23,6 @@ h2 {
 }
 
 
-@media only screen and (min-width: 600px) {
-  .cardlist__card {
-    width: 20rem;
-    max-width: 20rem;
-    height: content-fit;
-    margin: 1em;  
-  }
-}
-
 // UNIVERSAL COMPONENTS
 
 .menu__ul {
@@ -56,19 +47,40 @@ header {
   @extend .flex-md-row;
   @extend .justify-content-md-center;
   @extend .flex-wrap;
+  @extend .mb-5;
 }
 
-.cardlist__card {
+a.cardlist__card  {
   @extend .card;
+  @extend .m-1;
   @extend .w-100;
-  
+  @extend .p-1;
+  @extend .mx-md-5;
+  @extend .bg-dark;
+  @extend .text-center;
+  text-decoration: none;
+  color: $white
+}
+
+a.cardlist__card:hover {
+  h3 {
+    text-decoration: underline;
+  }
+}
+
+.card-title {
+  font-variant: all-small-caps;
+}
+
+.card-body p  {
+  color: $white;
+  font-size: larger;
 }
 
 @media only screen and (min-width: 600px) {
   .cardlist__card {
-    width: 20rem;
-    max-width: 20rem;
-    height: content-fit;
+    height: 160px;
+    max-width: 20em;
   }
 }
 
@@ -96,7 +108,6 @@ div#hero {
 .homepage__content__container {
   @extend .container-fluid;
   @extend .overflow-hidden;  @extend .align-items-center;
-
   @extend .d-flex;
   @extend .flex-column;
   @extend .p-0;
@@ -104,16 +115,15 @@ div#hero {
 
 .homepage__subtitle {
   @extend .text-center;
-  @extend .pb-3;
+  @extend .pb-5;
   @extend .pt-4;
 }
 
 .homepage__card {
   @extend .card;
-  width: 18rem;
   @extend .border;
   @extend .border-dark;
-  @extend .m-3;
+  @extend .my-4;
 }
 
 .homepage__cardlist {
@@ -124,9 +134,10 @@ div#hero {
   @extend .d-flex;
   @extend .flex-column;
   @extend .justify-content-between;
+  @extend .w-100;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 600px) {
   .homepage__card {
     flex-direction: row;
     width: 40rem;
@@ -170,6 +181,11 @@ div#hero {
 
 #homepage__alert a {
   @extend .alert-link;
+}
+
+#homepage__alert p {
+  @extend .m-0;
+  @extend .mx-5;
 }
 
 // GARDEN PAGES / COMPONENTS

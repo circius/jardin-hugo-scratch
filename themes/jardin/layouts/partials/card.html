@@ -1,6 +1,8 @@
-<div class="cardlist__card">
-  <div class="card-body">
-    <a href="{{ .RelPermalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
-    {{ .Summary }}
+<a href="{{ .RelPermalink }}">
+  <div class="cardlist__card">
+    <div class="card-body">
+      <h3 class="card-title">{{ .Title }}</h3>
+      <p>{{ .Summary }}</p>
+    </div>
   </div>
-</div>
+</a>

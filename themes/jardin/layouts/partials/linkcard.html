@@ -1,11 +1,13 @@
-<div class="cardlist__card">
-  <div class="card-body">
-    <a href="{{ .URL }}"><h3 class="card-title">{{ .Title }}</h3></a>
-    {{ with .Page }}
-      {{ .Summary }}
-    {{ end }}
-    {{ with .Post }}
-      {{ . }}
-    {{ end }}
+<a class="cardlist__card" href="{{ .URL }}">
+  <div>
+    <div class="card-body">
+      <h3 class="card-title">{{ .Title }}</h3>
+      {{ with .Page }}
+        <p>{{ .Summary }}</p>
+      {{ end }}
+      {{ with .Post }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </div>
   </div>
-</div>
+</a>
