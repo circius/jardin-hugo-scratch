@@ -15,11 +15,21 @@ h2 {
 
 .title {
   @extend .align-self-center;
-  @extend .px-5;
-  @extend .py-2;
+  @extend .px-md-5;
+  @extend .py-md-2;
   @extend .m-0;
   background-color: $gray-200;
   @extend .text-center;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .cardlist__card {
+    width: 20rem;
+    max-width: 20rem;
+    height: content-fit;
+    margin: 1em;  
+  }
 }
 
 // UNIVERSAL COMPONENTS
@@ -51,7 +61,7 @@ header {
 .cardlist__card {
   @extend .card;
   @extend .w-100;
-  @extend .m-2;
+  
 }
 
 @media only screen and (min-width: 600px) {
@@ -85,7 +95,8 @@ div#hero {
 
 .homepage__content__container {
   @extend .container-fluid;
-  @extend .overflow-hidden;
+  @extend .overflow-hidden;  @extend .align-items-center;
+
   @extend .d-flex;
   @extend .flex-column;
   @extend .p-0;
@@ -134,6 +145,11 @@ div#hero {
   max-height: 300px;
   width: auto;
   object-fit: cover;
+}
+
+.carousel {
+  width:100vw;
+  max-width: 1800px;
 }
 
 @media only screen and (min-width: 770px) {
