@@ -2,7 +2,7 @@
 <html lang="{{ .Lang }}">
   {{- partial "head.html" . -}}
     {{- partial "navbar.html" . -}}
-    <div class="content container overflow-hidden d-flex flex-column">
+    <div class="homepage__content__container">
       <h1 class="homepage__title"> {{ .Site.Title }} </h1>
       {{- block "hero" . }}{{ end }}
       {{- partial "alert" . -}}
