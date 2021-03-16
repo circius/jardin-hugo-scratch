@@ -111,12 +111,6 @@ div#hero {
 }
 
 @media only screen and (min-width: 600px) {
-  .homepage__main {
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 600px) {
   .homepage__card {
     flex-direction: row;
     width: 40rem;
@@ -127,6 +121,9 @@ div#hero {
   .homepage__card img {
     object-fit: cover;
     max-width: 15rem;
+  }
+  .homepage__main {
+    display: flex;
   }
 }
 
