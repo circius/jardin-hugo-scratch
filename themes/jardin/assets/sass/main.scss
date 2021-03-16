@@ -6,9 +6,11 @@ li.active {
   font-style: oblique;
 }
 
+$serif-fonts: Georgia, "Times New Roman", Times, serif;
+
 h1,
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: $serif-fonts;
 }
 
 .title {
@@ -62,6 +64,11 @@ header {
   }
 }
 
+.navbar__brand__span {
+  font-family: $serif-fonts;
+  max-width:10em;
+}
+
 // SINGLE COLUMN PAGE
 div#hero {
   min-height: 500px;
@@ -110,7 +117,7 @@ div#hero {
   @extend .justify-content-between;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
   .homepage__card {
     flex-direction: row;
     width: 40rem;
@@ -122,23 +129,19 @@ div#hero {
     object-fit: cover;
     max-width: 15rem;
   }
-  .homepage__main {
-    display: flex;
-  }
 }
 
 .carousel img {
-  height: 240px;
-  max-height: 240px;
+  height: 300px;
+  max-height: 300px;
   width: auto;
   object-fit: cover;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 770px) {
   .carousel img {
-    width: auto;
-    height: 500px;
-    max-height: 500px;
+    height:700px;
+    max-height: 700px;
     object-fit: cover;
   }
 }
