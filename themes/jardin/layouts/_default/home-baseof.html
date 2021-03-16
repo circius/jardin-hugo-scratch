@@ -3,7 +3,7 @@
   {{- partial "head.html" . -}}
     {{- partial "navbar.html" . -}}
     <div class="homepage__content__container">
-      <h1 class="homepage__title"> {{ .Site.Title }} </h1>
+      <h1 class="title"> {{ .Site.Title }} </h1>
       {{- block "hero" . }}{{ end }}
       {{- partial "alert" . -}}
       <h2 class="homepage__subtitle">{{- block "subtitle" . }}{{- end }}</h2>
