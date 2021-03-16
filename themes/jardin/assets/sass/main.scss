@@ -151,6 +151,27 @@ div#hero {
   }
 }
 
+#homepage__alert {
+  @extend .alert;
+  @extend .alert-info;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  position: absolute;
+  bottom: 180px;
+}
+
+#homepage__alert a {
+  @extend .alert-link;
+}
+
+#homepage__alert p {
+  @extend .m-0;
+  @extend .mx-5;
+}
+
+// HOMEPAGE / carousel
+
 .carousel img {
   height: 300px;
   max-height: 300px;
@@ -171,22 +192,7 @@ div#hero {
   }
 }
 
-#homepage__alert {
-  @extend .alert;
-  @extend .alert-info;
-  @extend .d-flex;
-  @extend .justify-content-center;
-  @extend .align-items-center;
-}
 
-#homepage__alert a {
-  @extend .alert-link;
-}
-
-#homepage__alert p {
-  @extend .m-0;
-  @extend .mx-5;
-}
 
 // GARDEN PAGES / COMPONENTS
 
