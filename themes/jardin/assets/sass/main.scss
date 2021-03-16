@@ -6,6 +6,10 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.homepage__content__container {
+  @extend .container;
+  @extend .overflow-hidden;
+}
 .homepage__subtitle {
   @extend .text-center;
   @extend .pb-3;
