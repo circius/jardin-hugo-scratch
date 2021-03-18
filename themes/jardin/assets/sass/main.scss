@@ -157,8 +157,14 @@ div#hero {
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
-  position: absolute;
-  bottom: 180px;
+
+}
+
+@media only screen and (min-width: 770px) {
+  #homepage__alert {
+    position: absolute;
+    bottom: 180px;
+  }
 }
 
 #homepage__alert a {
