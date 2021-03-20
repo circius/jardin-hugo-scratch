@@ -1,11 +1,6 @@
-{{ $imageResource := resources.Get (printf "%s" (.Get "cardImage") ) }}
+{{ $imageResource := resources.Get (printf "%s" (.Get "src") ) }}
+{{ $alt := .alt }}
 
-{{ $alt := .cardImageAlt }}
-{{ with $imageResource }}
-  {{ $cropped := $imageResource.Fill "300x200" }}
-  <img
-    class="card-img-top"
-    src="{{ $cropped.RelPermalink }}"
-    alt="{{ $alt }}"
-  />
-{{ end }}
+{{ $cropped := $imageResource.Fill "300x200" }}
+
+<img class="card-img-top" src="{{ $cropped.RelPermalink }}" alt="{{ $alt }}" />

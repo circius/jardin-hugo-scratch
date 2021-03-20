@@ -1,7 +1,7 @@
 {{ $alt := .Params.cardImageAlt }}
 {{ $RelPermalink := .RelPermalink}}
   <div class="garden__card">
-    {{ with .Params }}
+    {{ with .Params.featuredImage}}
       {{ partial "garden-card-image" . }}
     {{ end }}
     <div class="card-body">
