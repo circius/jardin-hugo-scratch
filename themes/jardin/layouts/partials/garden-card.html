@@ -1,9 +1,14 @@
 {{ $alt := .Params.cardImageAlt }}
 {{ $RelPermalink := .RelPermalink}}
   <div class="garden__card">
-    {{ with .Params.featuredImage}}
-      {{ partial "garden-card-image" . }}
-    {{ end }}
+    {{ if isset .Params "cardImage" }}
+    {{ partial "garden-card-image" .Params.cardImage }}
+    {{ else }}
+    {{ with .Params.featuredImage }}
+     {{ partial "garden-card-image" .}}
+     {{ end }}
+     {{ end }}
+
     <div class="card-body">
       {{ with .Title }}
       <a href="{{ $RelPermalink }}"> <h3 class="card-title">{{ . }}</h3></a>
