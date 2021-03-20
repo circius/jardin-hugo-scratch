@@ -1,5 +1,5 @@
 {{ $alt := .Params.cardImageAlt }}
-{{ $RelPermalink := .Params.RelPermalink}}
+{{ $RelPermalink := .RelPermalink}}
   <div class="garden__card">
     {{ with .Params.cardImage }}
       <img class="card-img-top" src="{{ . }}" alt="{{ $alt }}" />
