@@ -9,12 +9,12 @@
   <div class="carousel-inner">
     {{ range $first }}
       <div class="carousel-item active">
-        <img src="{{ . }}" class="d-block w-100" alt="..." />
+        {{ partial "image-carousel" . }}
       </div>
     {{ end }}
     {{ range $rest }}
       <div class="carousel-item">
-        <img src="{{ . }}" class="d-block w-100" alt="..." />
+        {{ partial "image-carousel" . }}
       </div>
     {{ end }}
   </div>

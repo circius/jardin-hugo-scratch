@@ -1,0 +1,4 @@
+{{ $img := resources.Get . }}
+{{ with $img }}
+  <img src="{{ $img.RelPermalink }}" class="d-block w-100" alt="..." />
+{{ end }}

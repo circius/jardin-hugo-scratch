@@ -1,3 +1,4 @@
 ---
-title: chambres
+title: Chambres d'hôtes
+menu: main
 ---

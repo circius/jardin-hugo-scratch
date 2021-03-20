@@ -1,3 +1,4 @@
 ---
-title: salles
+title: Receptions
+menu: main
 ---
