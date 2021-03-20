@@ -22,6 +22,12 @@ h2 {
   @extend .text-center;
 }
 
+.baseof__main {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .align-items-start;
+  @extend .w-100;
+}
 
 // UNIVERSAL COMPONENTS
 
@@ -50,16 +56,16 @@ header {
   @extend .mb-5;
 }
 
-a.cardlist__card  {
+a.cardlist__card {
   @extend .card;
-  @extend .m-1;
+  @extend .my-1;
   @extend .w-100;
   @extend .p-1;
   @extend .mx-md-5;
   @extend .bg-dark;
   @extend .text-center;
   text-decoration: none;
-  color: $white
+  color: $white;
 }
 
 a.cardlist__card:hover {
@@ -72,7 +78,7 @@ a.cardlist__card:hover {
   font-variant: all-small-caps;
 }
 
-.card-body p  {
+.card-body p {
   color: $white;
   font-size: larger;
 }
@@ -86,14 +92,14 @@ a.cardlist__card:hover {
 
 .navbar__brand__span {
   font-family: $serif-fonts;
-  max-width:10em;
+  max-width: 10em;
 }
 
 // SINGLE COLUMN PAGE
 div#hero {
   min-height: 500px;
   width: 100vw;
-  max-width: 1200px;
+  max-width: 1800px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,11 +109,21 @@ div#hero {
   @extend .align-self-center;
 }
 
+.singlepage__content__container {
+  @extend .container-fluid;
+  @extend .overflow-hidden;
+  @extend .align-items-center;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .p-0;
+}
+
 // HOMEPAGE
 
 .homepage__content__container {
   @extend .container-fluid;
-  @extend .overflow-hidden;  @extend .align-items-center;
+  @extend .overflow-hidden;
+  @extend .align-items-center;
   @extend .d-flex;
   @extend .flex-column;
   @extend .p-0;
@@ -157,13 +173,12 @@ div#hero {
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
-
 }
 
 @media only screen and (min-width: 770px) {
   #homepage__alert {
     position: absolute;
-    bottom: 180px;
+    top: 700px;
   }
 }
 
@@ -186,19 +201,17 @@ div#hero {
 }
 
 .carousel {
-  width:100vw;
+  width: 100vw;
   max-width: 1800px;
 }
 
 @media only screen and (min-width: 770px) {
   .carousel img {
-    height:700px;
+    height: 700px;
     max-height: 700px;
     object-fit: cover;
   }
 }
-
-
 
 // GARDEN PAGES / COMPONENTS
 
