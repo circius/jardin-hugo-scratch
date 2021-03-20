@@ -1,6 +1,6 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 {{ define "hero" }}
-  {{ with .Params.Resources.featuredImage }}
+  {{ with .Params.featuredImage }}
     {{ partial "hero" . }}
   {{ end }}
 {{ end }}
