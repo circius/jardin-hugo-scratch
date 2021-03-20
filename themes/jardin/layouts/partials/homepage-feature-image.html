@@ -1,0 +1,9 @@
+{{ $imageResource := resources.Get .image }}
+{{ $alt := .imageAlt }}
+{{ with $imageResource }}
+  <img
+    class="card-img-top"
+    src="{{ $imageResource.RelPermalink }}"
+    alt="{{ $alt }}"
+  />
+{{ end }}

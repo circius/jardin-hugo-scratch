@@ -1,4 +1,3 @@
 ---
 title: hôtel
-menu: main
 ---

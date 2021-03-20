@@ -1,13 +1,10 @@
 {{ $alt := .imageAlt }}
 <div class="homepage__card">
-  {{ with .image }}
-    <img class="card-img-top" src="{{ . }}" alt="{{ $alt }}" />
-  {{ end }}
+  {{ partial "homepage-feature-image" . }}
   <div class="card-body">
     {{ with .title }}
       <h3 class="card-title">{{ . }}</h3>
     {{ end }}
-
     {{ with .text }}
       <p>{{ . | markdownify }}</p>
     {{ end }}
