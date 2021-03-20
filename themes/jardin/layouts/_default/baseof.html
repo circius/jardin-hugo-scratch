@@ -4,14 +4,11 @@
   <body>
     {{- partial "navbar.html" . -}}
     <div class="singlepage__content__container">
-            <h1 class="title">
+      <h1 class="title">
         {{- block "title" . }}{{- end }}
       </h1>
       {{- block "hero" . }}{{- end }}
-
-      <main class="baseof__main">
-        {{- block "main" . }}{{- end }}
-      </main>
+      {{- block "main" . }}{{- end }}
     </div>
     {{- partial "footer.html" . -}}
   </body>

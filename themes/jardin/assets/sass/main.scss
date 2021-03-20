@@ -18,15 +18,28 @@ h2 {
   @extend .px-md-5;
   @extend .py-md-2;
   @extend .m-0;
+  @extend .mt-md-3;
   background-color: $gray-200;
   @extend .text-center;
 }
 
-.baseof__main {
+article {
   @extend .d-flex;
   @extend .flex-column;
   @extend .align-items-start;
   @extend .w-100;
+  @extend .mt-3;
+  @extend .mt-md-5;
+}
+
+figure > img {
+  @extend .w-100;
+}
+
+@media only screen and (min-width: 768px) {
+  article {
+    max-width: 72ch;
+  }
 }
 
 // UNIVERSAL COMPONENTS
@@ -62,13 +75,17 @@ a.cardlist__card {
   @extend .w-100;
   @extend .p-1;
   @extend .mx-md-5;
-  @extend .bg-dark;
   @extend .text-center;
-  text-decoration: none;
-  color: $white;
 }
 
-a.cardlist__card:hover {
+a.cardlist__card__dark {
+  @extend a.cardlist__card;
+  text-decoration: none;
+  color: $white;
+  @extend .bg-dark;
+}
+
+a.cardlist__card__dark:hover {
   h3 {
     text-decoration: underline;
   }
@@ -79,8 +96,18 @@ a.cardlist__card:hover {
 }
 
 .card-body p {
+  font-size: larger;
+}
+
+.card-body__dark p {
   color: $white;
   font-size: larger;
+}
+
+.card-img-top {
+  @extend .border;
+  @extend .border-5;
+  @extend .border-dark;
 }
 
 @media only screen and (min-width: 600px) {
@@ -139,7 +166,9 @@ div#hero {
   @extend .card;
   @extend .border;
   @extend .border-dark;
+  @extend .border-3;
   @extend .my-4;
+  @extend .mx-2;
 }
 
 .homepage__cardlist {

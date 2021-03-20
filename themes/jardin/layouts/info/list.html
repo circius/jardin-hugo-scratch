@@ -1,8 +1,10 @@
 {{ define "title" }} {{ .Title }} {{ end }}
 
 {{ define "main" }}
-  <div class="d-md-none">
-    {{ .TableOfContents }}
-  </div>
-  {{ .Content }}
+  <article>
+    <div class="d-md-none">
+      {{ .TableOfContents }}
+    </div>
+    {{ .Content }}
+  </article>
 {{ end }}
