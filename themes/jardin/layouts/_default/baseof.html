@@ -3,12 +3,13 @@
   {{- partial "head.html" . -}}
   <body>
     {{- partial "navbar.html" . -}}
-    <div class="content container px-5">
-      {{- block "hero" . }}{{- end }}
-      <h1 class="text-center">
+    <div class="singlepage__content__container">
+            <h1 class="title">
         {{- block "title" . }}{{- end }}
       </h1>
-      <main class="d-flex flex-column">
+      {{- block "hero" . }}{{- end }}
+
+      <main class="baseof__main">
         {{- block "main" . }}{{- end }}
       </main>
     </div>
