@@ -1,7 +1,9 @@
 {{ $alt := .imageAlt }}
 <div class="homepage__card">
-  {{ partial "homepage-feature-image" . }}
-  <div class="card-body">
+  <div class="homepage__card__image__container">
+    {{ partial "homepage-feature-image" . }}
+  </div>
+  <div class="homepage__card__body">
     {{ with .title }}
       <h3 class="card-title">{{ . }}</h3>
     {{ end }}

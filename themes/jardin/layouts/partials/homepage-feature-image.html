@@ -1,9 +1,6 @@
 {{ $imageResource := resources.Get .image }}
 {{ $alt := .imageAlt }}
 {{ with $imageResource }}
-  <img
-    class="card-img-top"
-    src="{{ $imageResource.RelPermalink }}"
-    alt="{{ $alt }}"
-  />
+  {{ $cropped := .Fill "700x400" }}
+  <img src="{{ $cropped.RelPermalink }}" alt="{{ $alt }}" />
 {{ end }}
