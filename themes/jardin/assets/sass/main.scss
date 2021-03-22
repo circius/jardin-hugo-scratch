@@ -2,12 +2,54 @@
 
 // UNIVERSAL STYLES
 
+$link-transition: ease-in-out 0.33s;
+$link-underline-color: $warning;
+$link-text-decoration: underline;
+$link-text-decoration-thickness-before: 1px;
+$link-text-decoration-thickness-after: 2px;
+$homepageMainWidth: 1400px;
+
+#TableOfContents {
+  ul {
+    border-left: 3px solid;
+    border-color: $warning;
+    padding-left: 6px;
+  }
+  li {
+    list-style: none;
+    @extend .py-1;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #TableOfContents {
+    position: fixed;
+    right: 50px;
+
+    ul {
+    }
+  }
+}
+a {
+  transition: $link-transition;
+  text-decoration-thickness: $link-text-decoration-thickness-before;
+}
+a:hover {
+  text-decoration-color: $link-underline-color;
+  text-decoration-line: $link-text-decoration;
+  text-decoration-thickness: $link-text-decoration-thickness-after;
+}
+
 a.nav-link:hover {
-  background-color: $secondary;
+  text-decoration-color: $link-underline-color;
 }
 
 a.nav-link {
   text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-thickness: $link-text-decoration-thickness-after;
+  text-decoration-color: rgba(0, 0, 0, 0);
+  transition: $link-transition;
 }
 li.active {
   font-style: oblique;
@@ -106,9 +148,18 @@ a.cardlist__card__dark {
   @extend .bg-dark;
 }
 
+a.cardlist__card__dark {
+  h3 {
+    text-decoration-color: $dark;
+    transition: $link-transition;
+  }
+}
+
 a.cardlist__card__dark:hover {
   h3 {
-    text-decoration: underline;
+    text-decoration: $link-text-decoration;
+    text-decoration-color: $link-underline-color;
+    text-decoration-thickness: $link-text-decoration-thickness-after;
   }
 }
 
@@ -165,9 +216,6 @@ div#hero {
   @extend .flex-column;
   @extend .p-0;
 }
-
-// HOMEPAGE
-
 .homepage__content__container {
   @extend .container-fluid;
   @extend .overflow-hidden;
@@ -193,7 +241,7 @@ div#hero {
 .homepage__cardlist {
   @extend .cardlist;
 }
-$homepageMainWidth: 1400px;
+
 .homepage__main {
   @extend .d-flex;
   @extend .flex-column;

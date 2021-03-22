@@ -42,3 +42,15 @@ L’accès au parc est fléché depuis
   en Coglès puis Le Châtellier)
 - la sortie 31 de l’autoroute A 84 (panneaux PARC FLORAL, direction Montours
   puis Le Châtellier)
+
+## contact
+
+Voir [ici]({{< relref "/info/contact" >}})
+
+## périodes de floraison
+
+Voir [ici]({{< relref "/info/floraison" >}})
+
+## visites en groupe
+
+Voir [ici]({{< relref "/info/groupes" >}})
