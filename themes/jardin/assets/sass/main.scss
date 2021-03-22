@@ -8,6 +8,7 @@ $link-text-decoration: underline;
 $link-text-decoration-thickness-before: 1px;
 $link-text-decoration-thickness-after: 2px;
 $homepageMainWidth: 1400px;
+$puce: $pink-100;
 
 #TableOfContents {
   ul {
@@ -121,6 +122,10 @@ header {
   @extend .navbar-light;
   @extend .container;
   @extend .justify-content-md-center;
+}
+
+#header_logo {
+  height: 50px;
 }
 
 .cardlist {
@@ -253,7 +258,7 @@ div#hero {
 
 .homepage__card__body {
   @extend .p-4;
-  background-color: $pink-100;
+  background-color: $puce;
 }
 
 .homepage__card__body > h3 {
