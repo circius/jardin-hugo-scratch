@@ -7,11 +7,6 @@ contentDir = "content/english"
 languageName = "English"
 title = "Botanical Gardens of Upper Brittany"
 weight = 20
-[languages.es]
-contentDir = "content/spanish"
-languageName = "Spanish"
-title = "jardines botánicos de alta bretaña"
-weight = 3
 [languages.fr]
 contentDir = "content/french"
 languageName = "Français"
