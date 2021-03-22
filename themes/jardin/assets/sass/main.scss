@@ -2,6 +2,13 @@
 
 // UNIVERSAL STYLES
 
+a.nav-link:hover {
+  background-color: $secondary;
+}
+
+a.nav-link {
+  text-transform: capitalize;
+}
 li.active {
   font-style: oblique;
 }
@@ -19,7 +26,7 @@ h2 {
   @extend .py-md-2;
   @extend .m-0;
   @extend .mt-md-3;
-  background-color: $gray-200;
+  background-color: $secondary;
   @extend .text-center;
 }
 
