@@ -1,0 +1,12 @@
+{{ $old_events :=  after 1 .Pages.ByDate.Reverse }}
+{{ with $old_events }}
+  <ul>
+    <p>Les années précedants</p>
+    <!-- orders content according to the "date" field in front matter -->
+    {{ range . }}
+      <li>
+        <a href="{{ .Permalink }}"> <time>{{ .Date.Format "2006" }}</time></a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

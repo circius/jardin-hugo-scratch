@@ -1,0 +1,15 @@
+{{ define "title" }}
+{{ $latestEvent := last 1 .Pages.ByDate }}
+{{  range $latestEvent }}
+  {{ .Parent.Title }} {{ dateFormat "2006" .Date }}
+  {{ end }}
+{{ end }}
+{{ define "main" }}
+{{ $latestEvent := last 1 .Pages.ByDate }}
+{{  range $latestEvent }}
+  {{ .Content }} 
+  {{ end }}
+<div class="evenement__archive">
+    {{ partial "event-by-date" . }}
+</div>
+{{ end }}

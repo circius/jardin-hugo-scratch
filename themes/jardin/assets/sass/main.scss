@@ -262,6 +262,12 @@ a.cardlist__card__dark:hover {
   font-size: smaller;
 }
 
+.feature__card__default__image {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
 @media only screen and (min-width: 600px) {
   .feature__card {
     display: grid;

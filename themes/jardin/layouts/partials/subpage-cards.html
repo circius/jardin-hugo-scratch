@@ -1,3 +1,5 @@
 <ul class="cardlist">
-  {{ range . }} {{ .Params.featuredImage }}<br /> {{ end }}
+  {{ range . }}
+    {{ partial "card-feature" . }}
+  {{ end }}
 </ul>
