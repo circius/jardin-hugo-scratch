@@ -1,7 +1,13 @@
 {{ $alt := .imageAlt }}
 <div class="feature__card">
   <div class="feature__card__image__container">
-    {{ partial "card-feature-image" .featuredImage }}
+    {{ if isset .cardImage . }}
+      {{ partial "card-feature-image" .cardImage }}
+      {{ else }}
+      {{ with .featuredImage }}
+        {{ partial "card-feature-image" . }}
+      {{ end }}
+    {{ end }}
   </div>
   <div class="feature__card__body">
     {{ with .title }}
