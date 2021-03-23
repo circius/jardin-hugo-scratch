@@ -3,7 +3,7 @@ subtitle: Bienvenue aux jardins
 announcement: URGENT TEMPORARY ANNOUNCEMENT -> [ici](/en/info/groupes/)
 feature:
   - Params:
-      featuredImage:
+      featuredimage:
         src: /uploads/dionysos.jpeg
         alt: "dionysos!"
     Title: nous avons rouvri!

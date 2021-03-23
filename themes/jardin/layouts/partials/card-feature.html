@@ -1,11 +1,15 @@
 <div class="feature__card">
   <div class="feature__card__image__container">
-    {{ if isset "cardImage" .Params }}
+
+    {{ with .Params }}
+    
+    {{ if isset . "cardImage" }}
       {{ partial "card-feature-image" .cardImage }}
+      {{ else if isset . "featuredimage" }}
+      {{ partial "card-feature-image" .featuredimage }}
       {{ else }}
-      {{ with .Params.featuredImage }}
-        {{ partial "card-feature-image" . }}
-      {{ end }}
+      <div class="feature__card__default__image"></div>
+    {{ end }}
     {{ end }}
   </div>
   <div class="feature__card__body">
@@ -15,5 +19,10 @@
     {{ with .Summary }}
       <p>{{ . | markdownify }}</p>
     {{ end }}
+    {{ $thisPage := . }}
+    {{ with .RelPermalink }} {{ end }}
   </div>
+  <p>
+    <a href="." classname="feature__card__link">Voir plus </a>
+  </p>
 </div>
