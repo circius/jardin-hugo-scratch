@@ -1,19 +1,18 @@
-{{ $alt := .imageAlt }}
 <div class="feature__card">
   <div class="feature__card__image__container">
-    {{ if isset .cardImage . }}
+    {{ if isset "cardImage" .Params }}
       {{ partial "card-feature-image" .cardImage }}
       {{ else }}
-      {{ with .featuredImage }}
+      {{ with .Params.featuredImage }}
         {{ partial "card-feature-image" . }}
       {{ end }}
     {{ end }}
   </div>
   <div class="feature__card__body">
-    {{ with .title }}
+    {{ with .Title }}
       <h3 class="card-title">{{ . }}</h3>
     {{ end }}
-    {{ with .summary }}
+    {{ with .Summary }}
       <p>{{ . | markdownify }}</p>
     {{ end }}
   </div>

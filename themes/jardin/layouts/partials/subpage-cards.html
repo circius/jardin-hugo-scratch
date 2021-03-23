@@ -1,5 +1,3 @@
 <ul class="cardlist">
-  {{ range . }}
-    {{ partial "card.html" . }}
-  {{ end }}
+  {{ range . }} {{ .Params.featuredImage }}<br /> {{ end }}
 </ul>

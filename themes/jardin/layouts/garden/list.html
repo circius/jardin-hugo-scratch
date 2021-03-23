@@ -2,20 +2,8 @@
   {{ .Title }}
 {{ end }}
 {{ define "main" }}
-  <div class="garden_container">
-    {{ $map := .Resources.GetMatch "map.png" }}
-    <img src="{{ $map }}" class="garden__map" alt="our map" />
-    {{ with .Content }}
-      <article>
-        {{ . }}
-      </article>
-    {{ end }}
     {{ with .Pages }}
-      <div class="garden_cardlist">
-        {{ range . }}
-          {{ partial "garden-card.html" . }}
-        {{ end }}
-      </div>
+    {{ partial "cardlist-feature" .}}
     {{ end }}
   </div>
 {{ end }}
