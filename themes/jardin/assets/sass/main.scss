@@ -35,6 +35,7 @@ $sidebar-color: $warning;
 .main__grid {
   display: flex;
   flex-direction: column;
+  @extend .w-100;
 }
 .subnav {
   border-left: $sidebar-width solid;
@@ -45,7 +46,8 @@ $sidebar-color: $warning;
 @media only screen and (min-width: 1100px) {
   .main__grid {
     display: grid;
-    grid-template-columns: 1fr $content-max-width 1fr;
+    grid-template-columns: 1fr $homepageMainWidth 1fr;
+    justify-items: center;
     column-gap: 2em;
   }
 
@@ -198,7 +200,7 @@ a.cardlist__card__dark {
   }
 }
 
-a.cardlist__card__dark:hover {
+cardlist__card__dark:hover {
   h3 {
     text-decoration: $link-text-decoration;
     text-decoration-color: $link-underline-color;
@@ -236,8 +238,7 @@ a.cardlist__card__dark:hover {
 
 .feature__card {
   @extend .card;
-  @extend .my-4;
-  @extend .mx-2;
+  margin: map-get($spacers, 4) map-get($spacers, 2);
   border: none;
 }
 
@@ -268,27 +269,40 @@ a.cardlist__card__dark:hover {
   background: linear-gradient(#e66465, #9198e5);
 }
 
+.feature__card__link {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+.feature__card__image__container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 600px) {
   .feature__card {
     display: grid;
     height: 400px;
     width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
     max-width: $homepageMainWidth * 0.66;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
   }
 
+  .feature__card__link {
+    grid-column-start: 8;
+    grid-row-start: 7;
+    align-self: end;
+    justify-self: end;
+  }
   .feature__card__image__container {
     grid-row-start: 1;
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 7;
-  }
-
-  .feature__card__image__container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
   .feature__card__body {
