@@ -1,8 +1,12 @@
 {{ define "title" }} {{ .Title }} {{ end }}
+{{ define "submenu" }}
+  <div class="subnav">
+    {{ .TableOfContents }}
+    {{ partial "section-menu" . }}
+  </div>{{ end }}
 
 {{ define "main" }}
   <article>
-    {{ .TableOfContents }}
     {{ .Content }}
   </article>
 {{ end }}

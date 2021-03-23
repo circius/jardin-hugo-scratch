@@ -8,27 +8,52 @@ $link-text-decoration: underline;
 $link-text-decoration-thickness-before: 1px;
 $link-text-decoration-thickness-after: 2px;
 $homepageMainWidth: 1400px;
+$content-max-width: 72ch;
 $puce: $pink-100;
 
-#TableOfContents {
+#TableOfContents,
+.sectionMenu {
+  @extend .d-flex;
+
   ul {
-    border-left: 3px solid;
-    border-color: $warning;
-    padding-left: 6px;
+    @extend .py-0;
+    @extend .my-0;
   }
   li {
     list-style: none;
     @extend .py-1;
+
+    a {
+      font-variant: small-caps;
+    }
   }
 }
 
-@media only screen and (min-width: 1100px) {
-  #TableOfContents {
-    position: fixed;
-    right: 50px;
+.main__grid {
+  display: flex;
+  flex-direction: column;
+}
+.subnav {
+  border-left: 4px solid;
+  border-color: $warning;
+  margin-left: 1em;
+}
 
-    ul {
-    }
+@media only screen and (min-width: 1100px) {
+  .main__grid {
+    display: grid;
+    grid-template-columns: 1fr $content-max-width 1fr;
+    column-gap: 3em;
+  }
+
+  .subnav::before {
+    content: "info";
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    rotate: 180deg;
+    font-size: x-large;
+    color: $link-underline-color;
+    font-variant: small-caps;
   }
 }
 a {
@@ -67,9 +92,9 @@ h2 {
   @extend .align-self-center;
   @extend .px-md-5;
   @extend .py-md-2;
-  @extend .m-0;
-  @extend .mt-md-3;
+  @extend .mb-3;
   background-color: $secondary;
+  @extend .w-100;
   @extend .text-center;
 }
 
@@ -89,7 +114,7 @@ figure > img {
 
 @media only screen and (min-width: 768px) {
   article {
-    max-width: 72ch;
+    max-width: $content-max-width;
   }
 }
 
