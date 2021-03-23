@@ -1,4 +1,4 @@
-{{ $imageResource := resources.Get .image }}
+{{ $imageResource := resources.Get (printf "%s" .src) }}
 {{ $alt := .imageAlt }}
 {{ with $imageResource }}
   {{ $cropped := .Fill "700x400" }}

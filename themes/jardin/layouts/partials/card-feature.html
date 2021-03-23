@@ -1,0 +1,14 @@
+{{ $alt := .imageAlt }}
+<div class="feature__card">
+  <div class="feature__card__image__container">
+    {{ partial "card-feature-image" .featuredImage }}
+  </div>
+  <div class="feature__card__body">
+    {{ with .title }}
+      <h3 class="card-title">{{ . }}</h3>
+    {{ end }}
+    {{ with .summary }}
+      <p>{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+</div>

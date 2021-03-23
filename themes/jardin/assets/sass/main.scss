@@ -10,6 +10,8 @@ $link-text-decoration-thickness-after: 2px;
 $homepageMainWidth: 1400px;
 $content-max-width: 72ch;
 $puce: $pink-100;
+$sidebar-width: 4px;
+$sidebar-color: $warning;
 
 #TableOfContents,
 .sectionMenu {
@@ -17,6 +19,7 @@ $puce: $pink-100;
 
   ul {
     @extend .py-0;
+    @extend .px-3;
     @extend .my-0;
   }
   li {
@@ -34,16 +37,16 @@ $puce: $pink-100;
   flex-direction: column;
 }
 .subnav {
-  border-left: 4px solid;
-  border-color: $warning;
-  margin-left: 1em;
+  border-left: $sidebar-width solid;
+  border-color: $sidebar-color;
+  @extend .my-2;
 }
 
 @media only screen and (min-width: 1100px) {
   .main__grid {
     display: grid;
     grid-template-columns: 1fr $content-max-width 1fr;
-    column-gap: 3em;
+    column-gap: 2em;
   }
 
   .subnav::before {
@@ -133,6 +136,8 @@ footer li {
 
 // UNIVERSAL COMPONENTS
 
+//// Header
+
 .menu__ul {
   @extend .nav;
   @extend .d-flex;
@@ -152,6 +157,13 @@ header {
 #header_logo {
   height: 50px;
 }
+
+.navbar__brand__span {
+  font-family: $serif-fonts;
+  max-width: 10em;
+}
+
+//// Cardlist
 
 .cardlist {
   @extend .d-flex;
@@ -220,12 +232,81 @@ a.cardlist__card__dark:hover {
   }
 }
 
-.navbar__brand__span {
-  font-family: $serif-fonts;
-  max-width: 10em;
+//// cardlist-large
+
+.feature__card {
+  @extend .card;
+  @extend .my-4;
+  @extend .mx-2;
+  border: none;
+}
+
+.feature__cardlist {
+  @extend .cardlist;
+}
+
+.homepage__main {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-between;
+  @extend .w-100;
+  max-width: $homepageMainWidth;
+}
+
+.feature__card__body {
+  @extend .p-4;
+  background-color: $puce;
+}
+
+.feature__card__body > h3 {
+  font-size: smaller;
+}
+
+@media only screen and (min-width: 600px) {
+  .feature__card {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    max-width: $homepageMainWidth * 0.66;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .feature__card__image__container {
+    grid-row-start: 1;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+
+  .feature__card__image__container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .feature__card__body {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    z-index: 1;
+  }
 }
 
 // SINGLE COLUMN PAGE
+//// main container
+
+.singlepage__content__container {
+  @extend .container-fluid;
+  @extend .overflow-hidden;
+  @extend .align-items-center;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .p-0;
+}
+//// hero
+
 div#hero {
   min-height: 500px;
   width: 100vw;
@@ -239,14 +320,10 @@ div#hero {
   @extend .align-self-center;
 }
 
-.singlepage__content__container {
-  @extend .container-fluid;
-  @extend .overflow-hidden;
-  @extend .align-items-center;
-  @extend .d-flex;
-  @extend .flex-column;
-  @extend .p-0;
-}
+// HOMEPAGE
+
+//// container
+
 .homepage__content__container {
   @extend .container-fluid;
   @extend .overflow-hidden;
@@ -256,70 +333,12 @@ div#hero {
   @extend .p-0;
 }
 
+//// minor elements
+
 .homepage__subtitle {
   @extend .text-center;
   @extend .pb-5;
   @extend .pt-4;
-}
-
-.homepage__card {
-  @extend .card;
-  @extend .my-4;
-  @extend .mx-2;
-  border: none;
-}
-
-.homepage__cardlist {
-  @extend .cardlist;
-}
-
-.homepage__main {
-  @extend .d-flex;
-  @extend .flex-column;
-  @extend .justify-content-between;
-  @extend .w-100;
-  max-width: $homepageMainWidth;
-}
-
-.homepage__card__body {
-  @extend .p-4;
-  background-color: $puce;
-}
-
-.homepage__card__body > h3 {
-  font-size: smaller;
-}
-
-@media only screen and (min-width: 600px) {
-  .homepage__card {
-    display: grid;
-    height: 400px;
-    width: 100%;
-    max-width: $homepageMainWidth * 0.66;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-  }
-
-  .homepage__card__image__container {
-    grid-row-start: 1;
-    grid-row-end: 9;
-    grid-column-start: 1;
-    grid-column-end: 7;
-  }
-
-  .homepage__card__image__container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .homepage__card__body {
-    grid-row-start: 3;
-    grid-row-end: 7;
-    grid-column-start: 5;
-    grid-column-end: 9;
-    z-index: 1;
-  }
 }
 
 #homepage__alert {
@@ -346,7 +365,7 @@ div#hero {
   @extend .mx-5;
 }
 
-// HOMEPAGE / carousel
+//// carousel
 
 .carousel img {
   height: 300px;
