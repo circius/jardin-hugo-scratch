@@ -1,18 +1,19 @@
 ---
 title: REPOSOIR DE L’HARMONIE DU SOIR
-summary: Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les
+summary:
+  Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les
   floraisons se succèdent.
 featuredImage:
   src: "/uploads/dionysos.jpeg"
   alt: autumnal
-
 ---
->Voici venir le temps où vibrant sur sa tige 
->Chaque fleur s’évapore ainsi qu’un encensoir... 
->Valse mélancolique et langoureux vertige 
->Le ciel est triste et beau comme un grand reposoir.
 
-Charles BAUDELAIRE
+{{< quote author="Charles Baudelaire"  >}}
+Voici venir le temps où vibrant sur sa tige<br/>
+Chaque fleur s’évapore ainsi qu’un encensoir...<br/>
+Valse mélancolique et langoureux vertige<br/>
+Le ciel est triste et beau comme un grand reposoir.<br/>
+{{< /quote >}}
 
 Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les floraisons se succèdent. Il est composé en trois parties :
 

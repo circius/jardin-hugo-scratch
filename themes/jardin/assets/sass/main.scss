@@ -166,56 +166,82 @@ header {
 }
 
 //// figure
-figure {
+//// figure.quote
+
+figure.quote {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+
+  blockquote {
+    text-align: left;
+    background-color: $puce;
+    @extend .m-0;
+    @extend .p-3;
+  }
+  figcaption {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: $secondary;
+    width: fit-content;
+    align-self: end;
+    @extend .p-1;
+  }
+}
+
+//// figure.image
+figure.image {
   align-self: center;
   @extend .w-100;
   min-height: 190px;
   display: flex;
   flex-direction: column;
-}
 
-figure > img {
-  @extend .w-100;
-  height: 100%;
-  object-fit: cover;
-  align-self: end;
-}
-figure > figcaption {
-  background-color: $secondary;
-  text-align: right;
-  color: rgba(0, 0, 0, 0.4);
-  padding-right: map-get($spacers, 2);
+  img {
+    @extend .w-100;
+    height: 100%;
+    object-fit: cover;
+    align-self: end;
+  }
+  figcaption {
+    background-color: $secondary;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.4);
+    padding-right: map-get($spacers, 2);
+    align-self: flex-end;
+    @extend .p-2;
+  }
 }
 
 //// figure-md
 
 @media only screen and (min-width: 1100px) {
-  figure {
+  figure.image {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
     height: 400px;
     width: 100vw;
-  }
 
-  figure > img {
-    grid-row-start: 1;
-    grid-row-end: 12;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  figure > figcaption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $puce;
-    grid-row-start: 11;
-    grid-row-end: 13;
-    grid-column-start: 4;
-    grid-column-end: 10;
+    img {
+      grid-row-start: 1;
+      grid-row-end: 12;
+      grid-column-start: 1;
+      grid-column-end: 13;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    figcaption {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $puce;
+      grid-row-start: 11;
+      grid-row-end: 13;
+      grid-column-start: 4;
+      grid-column-end: 10;
+    }
   }
 }
 

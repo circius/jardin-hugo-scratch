@@ -3,7 +3,7 @@
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
 
-<figure>
+<figure class="image">
   <img src="{{ $imageResource.RelPermalink }}" alt="{{ $alt }}" />
   {{ with $caption }}
     <figcaption><span>{{ . }}</span></figcaption>

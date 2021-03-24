@@ -1,0 +1,12 @@
+<figure class="quote">
+  <blockquote>
+      {{ .Inner }}
+  </blockquote>
+  {{ with .Params }}
+    <figcaption>{{ .author }}
+        {{ with .source }}
+        , <cite>{{ . }}</cite>
+        {{ end }}
+    </figcaption>
+  {{ end }}
+</figure>

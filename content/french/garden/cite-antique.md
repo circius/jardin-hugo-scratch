@@ -31,7 +31,7 @@ La deuxième partie, au nord-ouest, représente un jardin allégorique divisé e
 
 La troisième partie, au sud-ouest, la tholos. La quatrième, l’agora. Telle une frise qui réveille un espace dominé par le vert des allées engazonnées, une plate-bande de fleurs vivaces ceinture ce jardin.
 
-> Aux côtés de la cour, on voit un grand jardin, avec ses quatre arpents enclos dans une enceinte...
-> HOMERE, extraits de l'Odyssée, chant VII, vers 112
+{{< quote author="Homère" source="Odyssée, chant VII, vers 112" >}} Aux côtés de la cour, on voit un grand jardin,<br/>
+avec ses quatre arpents enclos dans une enceinte... {{< /quote >}}
 
 {{< img src="/uploads/cite-3.jpg" caption="en bleu et blanc" alt="banc des fleures bleus et blancs" >}}
