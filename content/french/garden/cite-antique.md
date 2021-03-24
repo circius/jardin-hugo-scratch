@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 summary = "Ce jardin a été conçu dans l'ancien potager entièrement clos de murs."
 title = "cité antique"
 [cardImage]
@@ -10,10 +10,10 @@ alt = "le lac du cité"
 src = "/uploads/dsc_0054-2021-03-09.jpeg"
 
 +++
+
 Ce jardin a été conçu dans l'ancien potager entièrement clos de murs.
 
 Son plan fait référence à celui d’une cité antique. Dans une enceinte carrée, quatre fleuves orientés dans les quatre directions ouest/est, nord/sud partagent le monde en quatre parties. L’on pénètre dans ce lieu clos par une porte creusée dans le mur d’enceinte.
-
 
 Les genévriers au port fastigié rappellent les colonnes d’une rue à portiques.
 
@@ -23,10 +23,10 @@ La première partie centrale, au nord-est, évoque l’odéon. Sur ses gradins o
 
 La deuxième partie, au nord-ouest, représente un jardin allégorique divisé en quatre parcelles par les quatre fleuves qui irriguent la terre :
 
-* le jardinet des simples symbolisé par un pommier, arbre de la connaissance du bien et du mal,
-* le jardinet des aromatiques symbolisé par un grenadier, arbre de vie portant les fruits de l’immortalité,
-* le jardinet de Marie symbolisé par un cèdre nain du Liban indéracinable
-* le jardinet potager symbolisé par un amandier, arbre du renouveau de la nature.
+- le jardinet des simples symbolisé par un pommier, arbre de la connaissance du bien et du mal,
+- le jardinet des aromatiques symbolisé par un grenadier, arbre de vie portant les fruits de l’immortalité,
+- le jardinet de Marie symbolisé par un cèdre nain du Liban indéracinable
+- le jardinet potager symbolisé par un amandier, arbre du renouveau de la nature.
 
 {{< img src="/uploads/cite-2.jpg" caption="blancs pendus" alt="vue du jardin avec des plantes blancs pendus" >}}
 
