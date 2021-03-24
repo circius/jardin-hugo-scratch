@@ -1,0 +1,12 @@
+{{ define "title" }}
+  {{ .Title }}
+{{ end }}
+{{ define "main" }}
+{{ .Content }}
+{{ end }}
+
+{{ define "cardlist" }}
+{{ with .Pages }}
+{{ partial "cardlist-feature" .}}
+{{ end }}
+{{ end }}
