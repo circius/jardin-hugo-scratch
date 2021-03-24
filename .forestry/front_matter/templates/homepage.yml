@@ -2,6 +2,7 @@
 label: homepage
 hide_body: false
 fields:
+<<<<<<< HEAD
   - type: text
     name: subtitle
     label: title
@@ -43,6 +44,58 @@ fields:
       max:
       labelField:
     label: feature
+=======
+- type: text
+  name: subtitle
+  label: subtitle
+  hidden: false
+- type: text
+  name: announcement
+  label: announcement
+  hidden: false
+- name: feature
+  type: field_group_list
+  fields:
+  - name: Title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: Summary
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Summary
+  - name: Params
+    type: field_group
+    config: {}
+    fields:
+    - name: featuredimage
+      type: field_group
+      config: {}
+      fields:
+      - name: src
+        type: file
+        config:
+          maxSize: 64
+        label: image
+      - name: alt
+        type: text
+        config:
+          required: false
+        label: alt
+      label: featuredImage
+    label: Params
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: feature
+>>>>>>> ad08724985c36fdbbaf826c418947fccd18f13f7
 pages:
   - content/english/_index.md
   - content/french/_index.md
