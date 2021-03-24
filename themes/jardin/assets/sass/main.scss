@@ -35,6 +35,7 @@ $sidebar-color: $warning;
 .main__grid {
   display: flex;
   flex-direction: column;
+  align-items: center;
   @extend .w-100;
 }
 .subnav {
