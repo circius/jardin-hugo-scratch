@@ -1,8 +1,8 @@
 ---
-title: visite en groupe
+title: groupes d'adultes
 summary: Nos formules pour les visites en groupe
----
 
+---
 Trois formules sont proposées pour les groupes à partir de 20 personnes:
 
 - En visite libre à 8,90€ par personne, un feuillet descriptif avec un plan est remis à tous les membres du groupe qui peuvent découvrir à leur rythme les différents jardins. Un aperçu des 24 jardins demande au minimum 1h30 de promenade, comptez 3h pour une visite approfondie.
