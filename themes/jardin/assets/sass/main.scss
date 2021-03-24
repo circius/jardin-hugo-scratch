@@ -8,7 +8,7 @@ $link-text-decoration: underline;
 $link-text-decoration-thickness-before: 1px;
 $link-text-decoration-thickness-after: 2px;
 $homepageMainWidth: 1400px;
-$content-max-width: 72ch;
+$content-max-width: 62ch;
 $puce: $pink-100;
 $sidebar-width: 4px;
 $sidebar-color: $warning;
@@ -78,19 +78,30 @@ $serif-fonts: Georgia, "Times New Roman", Times, serif;
 h1,
 h2 {
   font-family: $serif-fonts;
+}
+
+h2 {
   @extend .pt-4;
   @extend .pb-2;
 }
 
 .title {
   @extend .align-self-center;
+  @extend .m-0;
   @extend .px-md-5;
   @extend .py-md-2;
-  @extend .mb-3;
   background-color: $secondary;
   @extend .w-100;
   @extend .text-center;
   text-transform: capitalize;
+}
+
+ul {
+  max-width: $content-max-width;
+}
+
+li {
+  @extend .py-1;
 }
 
 article {
@@ -101,6 +112,10 @@ article {
   @extend .mt-3;
   @extend .mt-md-5;
   @extend .px-2;
+
+  p {
+    @extend .py-1;
+  }
 }
 
 footer {
@@ -134,12 +149,6 @@ footer li {
     font-size: x-large;
     color: $link-underline-color;
     font-variant: small-caps;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  article {
-    max-width: $content-max-width;
   }
 }
 
@@ -179,12 +188,16 @@ figure.quote {
   display: flex;
   flex-direction: column;
   align-self: end;
+  @extend .mb-5;
 
   blockquote {
     text-align: left;
     background-color: $puce;
     @extend .m-0;
     @extend .p-3;
+    br {
+      margin-bottom: 0.5em;
+    }
   }
   figcaption {
     color: rgba(0, 0, 0, 0.4);
