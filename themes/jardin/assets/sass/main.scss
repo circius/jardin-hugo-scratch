@@ -27,7 +27,7 @@ $sidebar-color: $warning;
     @extend .py-1;
 
     a {
-      font-variant: small-caps;
+      text-transform: capitalize;
     }
   }
 }
@@ -40,7 +40,7 @@ $sidebar-color: $warning;
 .subnav {
   border-left: $sidebar-width solid;
   border-color: $sidebar-color;
-  @extend .my-2;
+  @extend .mx-2;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -101,6 +101,7 @@ h2 {
   background-color: $secondary;
   @extend .w-100;
   @extend .text-center;
+  text-transform: capitalize;
 }
 
 article {
