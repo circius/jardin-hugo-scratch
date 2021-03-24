@@ -13,6 +13,8 @@ src = "/uploads/dsc_0054-2021-03-09.jpeg"
 Ce jardin a été conçu dans l'ancien potager entièrement clos de murs.
 
 Son plan fait référence à celui d’une cité antique. Dans une enceinte carrée, quatre fleuves orientés dans les quatre directions ouest/est, nord/sud partagent le monde en quatre parties. L’on pénètre dans ce lieu clos par une porte creusée dans le mur d’enceinte.
+
+
 Les genévriers au port fastigié rappellent les colonnes d’une rue à portiques.
 
 {{< img src="/uploads/cite-1.jpg" caption="arc bienveillante" alt="photo d'un arc composé des fleurs" >}}
