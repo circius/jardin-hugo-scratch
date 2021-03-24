@@ -1,0 +1,9 @@
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $imageResource := resources.Get .Destination }}
+
+<figure class="image">
+  <img src="{{ $imageResource.RelPermalink }}" alt="{{ .Text }}" />
+  {{ with .Title}}
+    <figcaption><span>{{ . }}</span></figcaption>
+  {{ end }}
+</figure>
