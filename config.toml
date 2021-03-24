@@ -24,3 +24,8 @@ url = "/info/#horaires"
 post = "when you can visit"
 title = "Our opening hours"
 url = "/en/info/#horaires"
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2

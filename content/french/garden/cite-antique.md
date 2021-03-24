@@ -8,7 +8,6 @@ src = ""
 [featuredImage]
 alt = "le lac du cité"
 src = "/uploads/dsc_0054-2021-03-09.jpeg"
-
 +++
 
 Ce jardin a été conçu dans l'ancien potager entièrement clos de murs.
