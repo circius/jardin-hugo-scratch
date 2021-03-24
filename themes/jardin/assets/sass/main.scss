@@ -38,6 +38,10 @@ $sidebar-color: $warning;
   align-items: center;
   @extend .w-100;
 }
+
+.main__grid__submenu {
+  align-self: start;
+}
 .subnav {
   border-left: $sidebar-width solid;
   border-color: $sidebar-color;
