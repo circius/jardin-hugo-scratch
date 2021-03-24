@@ -78,6 +78,8 @@ $serif-fonts: Georgia, "Times New Roman", Times, serif;
 h1,
 h2 {
   font-family: $serif-fonts;
+  @extend .pt-4;
+  @extend .pb-2;
 }
 
 .title {
@@ -325,6 +327,7 @@ a.cardlist__card__dark {
   @extend .card;
   margin: map-get($spacers, 4) map-get($spacers, 2);
   border: none;
+  @extend .w-100;
 }
 
 .feature__cardlist {
@@ -354,7 +357,7 @@ a.cardlist__card__dark {
 .feature__card__default__image {
   height: 100%;
   width: 100%;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient($secondary, $info);
 }
 
 .feature__card__link {
