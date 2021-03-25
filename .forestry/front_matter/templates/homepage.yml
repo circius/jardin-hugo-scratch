@@ -2,49 +2,6 @@
 label: homepage
 hide_body: false
 fields:
-<<<<<<< HEAD
-  - type: text
-    name: subtitle
-    label: title
-    hidden: false
-  - type: text
-    name: announcement
-    label: announcement
-    hidden: false
-  - name: feature
-    type: field_group_list
-    fields:
-      - name: title
-        type: text
-        config:
-          required: false
-        label: title
-      - name: text
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: false
-          schema:
-            format: markdown
-        label: text
-      - name: image
-        type: file
-        config:
-          maxSize: 1
-        label: image
-      - name: imageAlt
-        type: text
-        config:
-          required: false
-        label: image alt text
-        description: alt-text for the image (important for accessibility)
-    config:
-      min:
-      max:
-      labelField:
-    label: feature
-=======
 - type: text
   name: subtitle
   label: subtitle
@@ -93,9 +50,10 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: Title
   label: feature
->>>>>>> ad08724985c36fdbbaf826c418947fccd18f13f7
 pages:
-  - content/english/_index.md
-  - content/french/_index.md
+- content/english/_index.md
+- content/english/_index.md
+- content/french/_index.md
+- content/french/_index.md
