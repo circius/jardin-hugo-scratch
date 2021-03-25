@@ -96,10 +96,6 @@ h2 {
   text-transform: capitalize;
 }
 
-ul {
-  max-width: $content-max-width;
-}
-
 li {
   @extend .py-1;
 }
@@ -162,6 +158,7 @@ footer li {
   @extend .flex-column;
   @extend .flex-md-row;
   @extend .align-items-center;
+  max-width: max-content;
 }
 
 header {
@@ -170,6 +167,14 @@ header {
   @extend .navbar-light;
   @extend .container;
   @extend .justify-content-md-center;
+}
+
+#navBar {
+  @extend .navbar-collapse;
+  @extend .collapse;
+  @extend .align-items-center;
+  @extend .justify-content-md-end;
+  @extend .justify-content-center;
 }
 
 #header_logo {
