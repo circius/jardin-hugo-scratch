@@ -25,13 +25,17 @@ sections:
 - type: directory
   path: content/french
   label: french
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - single-column-page
 - type: directory
   path: content/english
   label: english
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - single-column-page
 - type: heading
   label: Settings
 - type: document
