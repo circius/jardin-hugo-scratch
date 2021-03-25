@@ -20,12 +20,15 @@ url = "/"
 post = "quand visiter?"
 title = "nos horaires"
 url = "/info/#horaires"
+[markup.tableOfContents]
+endLevel = 2
+ordered = false
+startLevel = 2
+[[menu.quicklinks]]
+post = "A beautiful gift for someone you love"
+title = "Give a visit!"
+url = "https://elloha.fr"
 [[menu.quicklinks]]
 post = "when you can visit"
 title = "Our opening hours"
 url = "/en/info/#horaires"
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = false
-    startLevel = 2
