@@ -1,5 +1,4 @@
 +++
-draft = false
 summary = "Ce jardin a été conçu dans l'ancien potager entièrement clos de murs."
 title = "cité antique"
 [cardImage]
@@ -8,8 +7,8 @@ src = ""
 [featuredImage]
 alt = "le lac du cité"
 src = "/uploads/dsc_0054-2021-03-09.jpeg"
-+++
 
++++
 {{< quote author="Homère" source="Odyssée, chant VII, vers 112" >}} Aux côtés de la cour, on voit un grand jardin,<br/>
 avec ses quatre arpents enclos dans une enceinte... {{< /quote >}}
 
@@ -19,16 +18,16 @@ Son plan fait référence à celui d’une cité antique. Dans une enceinte carr
 
 Les genévriers au port fastigié rappellent les colonnes d’une rue à portiques.
 
-![photo d'un arc composé des fleurs](/uploads/cite-1.jpg "arc bienveillant")
+![photo d'un arc composé des fleurs](/uploads/cite-1.jpg "arcade de rose")
 
 La première partie centrale, au nord-est, évoque l’odéon. Sur ses gradins ont été plantés des iris qui forment un arc-en-ciel.
 
 La deuxième partie, au nord-ouest, représente un jardin allégorique divisé en quatre parcelles par les quatre fleuves qui irriguent la terre :
 
-- le jardinet des simples symbolisé par un pommier, arbre de la connaissance du bien et du mal,
-- le jardinet des aromatiques symbolisé par un grenadier, arbre de vie portant les fruits de l’immortalité,
-- le jardinet de Marie symbolisé par un cèdre nain du Liban indéracinable
-- le jardinet potager symbolisé par un amandier, arbre du renouveau de la nature.
+* le jardinet des simples symbolisé par un pommier, arbre de la connaissance du bien et du mal,
+* le jardinet des aromatiques symbolisé par un grenadier, arbre de vie portant les fruits de l’immortalité,
+* le jardinet de Marie symbolisé par un cèdre nain du Liban indéracinable
+* le jardinet potager symbolisé par un amandier, arbre du renouveau de la nature.
 
 ![vue du jardin avec des plantes blancs pendus](/uploads/cite-2.jpg "blancs pendus")
 
