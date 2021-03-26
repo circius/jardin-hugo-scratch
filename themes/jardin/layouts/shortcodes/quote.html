@@ -5,8 +5,12 @@
   {{ with .Params }}
     <figcaption>{{ .author }}
         {{ with .source }}
-        , <cite>{{ . }}</cite>
+        , <cite>{{ . | markdownify }}</cite>
         {{ end }}
+        {{ with .sourceDetail }}
+        , <br/> <span> {{ . }}</span>
+        {{ end }}
+        .
     </figcaption>
   {{ end }}
 </figure>
