@@ -37,70 +37,67 @@ summary: les saisons jardinière
 
 ### Selon les principales essences aux inflorescences spectaculaires
 
-#### CAMÉLIAS
+#### camélias
 
 meilleur fleurissement du 15 mars au 15 avril
 
-au 15 septembre, floraison du camellia sinensis (théier de Chine);
+- au 15 septembre, floraison du camellia sinensis (théier de Chine);
 
-du 15 octobre au 15 décembre, celles des camellias sasanqua;
+- du 15 octobre au 15 décembre, celles des camellias sasanqua;
 
-du 15 novembre au 15 mai, celles des camellias japonica
+- du 15 novembre au 15 mai, celles des camellias japonica
 
-du 15 février au 15 avril, celles des camellias williamsii
+- du 15 février au 15 avril, celles des camellias williamsii
 
-du 15 mars au 15 avril, celles des camellias reticulata\...
+- du 15 mars au 15 avril, celles des camellias reticulata\...
 
-#### MAGNOLIAS
+#### magnolias
 
 deux principales périodes de floraison
 
-du 15 mars au 15 avril : magnolias caducs à grandes fleurs, à fleurs
-étoilées\...
+- du 15 mars au 15 avril : magnolias caducs à grandes fleurs, à fleurs
+  étoilées\...
 
-du 30 juin au 15 août : magnolias persistants ou semi-persistants,
-magnolias à grandes feuilles, magnolias sinensis, wilsonii, sieboldii,
-(x) wiesneri\...
+- du 30 juin au 15 août : magnolias persistants ou semi-persistants,
+  magnolias à grandes feuilles, magnolias sinensis, wilsonii, sieboldii,
+  (x) wiesneri\...
 
-#### KALMIAS
+#### kalmias
 
 fleurissement des kalmias latifolia du 20 mai au 15 juin avec
 un pic de floraisons le 8 juin
 
-#### AZALÉES
+#### azalées
 
 deux principales périodes de floraison
 
-en avril
+- en avril
 
-en juin
+- en juin
 
-#### RHODODENDRONS
+#### rhodendrons
 
 meilleur fleurissement du 20 avril au 20 mai avec un pic
 de floraison le 8 mai
 
-vers le 15 février, premières rares floraisons de rhododendrons
-botaniques ( macabeanum, \...)
+- vers le 15 février, premières rares floraisons de rhododendrons
+  botaniques ( macabeanum, \...)
 
-vers le 15 mars, floraisons très précoces : rhododendron caucasicum et
-\'Christmas Cheer\'\...
+- vers le 15 mars, floraisons très précoces : rhododendron caucasicum et
+  \'Christmas Cheer\'\...
 
-vers le 15 avril, floraisons précoces : rhododendron \'Grace Seabrook\',
-\'April Glow\'
+- vers le 15 avril, floraisons précoces : rhododendron \'Grace Seabrook\',
+  \'April Glow\'
 
-vers le 15 juin, floraisons mi-tardives : rhododendrons Tortoishell
-\'Champagne\', \'Goldworth Orange\', \...
+- vers le 15 juin, floraisons mi-tardives : rhododendrons Tortoishell
+  \'Champagne\', \'Goldworth Orange\', \...
 
-vers le 15 juillet, floraisons tardives : rhododendrons \'Polar Bear\',
-\'Aladdin\', \'Romarez\'\..., Rhododendrons serotinum
+- vers le 15 juillet, floraisons tardives : rhododendrons \'Polar Bear\',
+  \'Aladdin\', \'Romarez\'\..., Rhododendrons serotinum
 
-vers le 15 septembre, floraison très tardive du rhododendron
-\'Herbtfreude\',  et du rhododendron \'Yellow
+- vers le 15 septembre, floraison très tardive du rhododendron \'Herbtfreude\',  et du rhododendron \'Yellow Hammer\'\...
 
-Hammer\'\...
-
-#### AUTRES ESSENCES
+#### autres essences
 
 pivoines
 

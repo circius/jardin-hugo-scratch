@@ -78,11 +78,19 @@ $serif-fonts: Georgia, "Times New Roman", Times, serif;
 h1,
 h2 {
   font-family: $serif-fonts;
+  text-transform: none;
 }
 
 h2 {
   @extend .pt-4;
   @extend .pb-2;
+}
+
+h3 {
+}
+
+h4 {
+  font-variant: small-caps;
 }
 
 .title {
