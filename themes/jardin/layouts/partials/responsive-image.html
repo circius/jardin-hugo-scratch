@@ -6,26 +6,29 @@
 {{ $smallImage := $image.Resize "800x" }}
 {{ $mediumImage := $image.Resize "1200x" }}
 {{ $largeImage := $image.Resize "1500x" }}
+{{ $defaultImage := $largeImage }}
 
-<source
-  media="(min-width:500px)"
-  srcset="{{ $tinyImage.RelPermalink | safeURL }}"
-/>
-<source
-  media="(min-width:800px)"
-  srcset="{{ $smallImage.RelPermalink | safeURL }}"
-/>
-<source
-  media="(min-width:1200px)"
-  srcset="{{ $mediumImage.RelPermalink | safeURL }}"
-/>
-<source
-  media="(min-width:1500px)"
-  srcset="{{ $largeImage.RelPermalink | safeURL }}"
-/>
-<img
-  src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}"
-  title="{{ .Title }}"
-  style="width:auto;"
-/>
+<picture>
+  <source
+    media="(min-width:500px)"
+    srcset="{{ $tinyImage.RelPermalink | safeURL }}"
+  />
+  <source
+    media="(min-width:800px)"
+    srcset="{{ $smallImage.RelPermalink | safeURL }}"
+  />
+  <source
+    media="(min-width:1200px)"
+    srcset="{{ $mediumImage.RelPermalink | safeURL }}"
+  />
+  <source
+    media="(min-width:1500px)"
+    srcset="{{ $largeImage.RelPermalink | safeURL }}"
+  />
+  <img
+    src="{{ $defaultImage.RelPermalink | safeURL }}"
+    alt="{{ .Text }}"
+    title="{{ .Title }}"
+    style="width:auto;"
+  />
+</picture>

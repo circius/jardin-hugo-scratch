@@ -138,7 +138,7 @@ footer li {
 
 //// responsive versions
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: $content-max-width) {
   .main__grid {
     display: grid;
     grid-template-columns: 1fr $content-max-width 1fr;
@@ -265,7 +265,7 @@ figure.image {
     height: 400px;
     width: 100vw;
 
-    img {
+    picture {
       grid-row-start: 1;
       grid-row-end: 12;
       grid-column-start: 1;
