@@ -9,7 +9,7 @@ fields:
     name: summary
     label: summary
   - type: list
-    name: menus
+    name: menu
     label: Menus
     description: Show in which menus?
     config:
@@ -42,4 +42,4 @@ fields:
         label: alt
 
 pages:
-  - content/french/garden/cite-antique.md
+  - content/*
