@@ -40,7 +40,8 @@ $sidebar-color: $warning;
 }
 
 .main__grid__submenu {
-  align-self: start;
+  align-self: flex-start;
+  @extend .pt-3;
 }
 .subnav {
   border-left: $sidebar-width solid;
@@ -114,7 +115,7 @@ article {
   @extend .align-items-start;
   @extend .w-100;
   @extend .mt-3;
-  @extend .mt-md-5;
+  @extend .mt-md-0;
   @extend .px-2;
 
   p {
@@ -142,7 +143,12 @@ footer li {
     display: grid;
     grid-template-columns: 1fr $content-max-width 1fr;
     justify-items: center;
-    column-gap: 2em;
+    column-gap: 6em;
+  }
+
+  .main__grid__submenu {
+    justify-self: end;
+    margin-top: map-get($spacers, 4);
   }
 
   .subnav::before {
