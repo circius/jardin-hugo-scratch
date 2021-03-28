@@ -8,6 +8,11 @@ fields:
 - type: text
   name: summary
   label: summary
+- name: menu
+  type: tag_list
+  default: []
+  label: menu
+  description: Menus to show this page in. Can be 'quicklinks' or 'main' or both.
 - type: field_group
   name: featuredImage
   label: featuredImage
