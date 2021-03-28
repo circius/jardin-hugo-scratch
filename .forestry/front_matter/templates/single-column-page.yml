@@ -15,11 +15,11 @@ fields:
     config:
       use_select: true
       max: 2
-    source:
-      type: simple
-    options:
-      - main
-      - quicklinks
+      source:
+        type: simple
+      options:
+        - main
+        - quicklinks
   - type: field_group
     name: featuredImage
     label: featuredImage
