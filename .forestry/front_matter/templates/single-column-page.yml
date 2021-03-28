@@ -2,44 +2,56 @@
 label: single-column-page
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summary
+  label: summary
+- type: list
+  name: menu
+  label: Menus
+  description: Show in which menus?
+  config:
+    use_select: true
+    max: 2
+    source:
+      type: simple
+    options:
+    - main
+    - quicklinks
+- name: weight
+  type: number
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 1
+    required: true
+  label: weight in menu
+  description: The lower this number is, the nearer to the top of its menus this page
+    is, relative to other pages with weight set. All pages with weight set come before
+    unweighted pages.
+- type: field_group
+  name: featuredImage
+  label: featuredImage
+  fields:
+  - type: file
+    name: src
+    label: src
   - type: text
-    name: title
-    label: title
+    name: alt
+    label: alt
+- type: field_group
+  name: cardImage
+  label: cardImage
+  fields:
+  - type: file
+    name: src
+    label: src
   - type: text
-    name: summary
-    label: summary
-  - type: list
-    name: menu
-    label: Menus
-    description: Show in which menus?
-    config:
-      use_select: true
-      max: 2
-      source:
-        type: simple
-      options:
-        - main
-        - quicklinks
-  - type: field_group
-    name: featuredImage
-    label: featuredImage
-    fields:
-      - type: file
-        name: src
-        label: src
-      - type: text
-        name: alt
-        label: alt
-  - type: field_group
-    name: cardImage
-    label: cardImage
-    fields:
-      - type: file
-        name: src
-        label: src
-      - type: text
-        name: alt
-        label: alt
-
+    name: alt
+    label: alt
 pages:
-  - content/*
+- content/french/garden/cite-antique.md
