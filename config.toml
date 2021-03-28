@@ -3,6 +3,8 @@ baseURL                = "/"
 languageCode           = "fr-FR"
 theme                  = "jardin"
 
+disableLanguages = []
+
 [languages.en]
 contentDir   = "content/english"
 languageName = "English"
