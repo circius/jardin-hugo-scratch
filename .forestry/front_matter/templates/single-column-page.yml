@@ -2,41 +2,44 @@
 label: single-column-page
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: summary
-  label: summary
-- type: field_group
-  name: featuredImage
-  label: featuredImage
-  fields:
-  - type: file
-    name: src
-    label: src
   - type: text
-    name: alt
-    label: alt
-- type: field_group
-  name: cardImage
-  label: cardImage
-  fields:
-  - type: file
-    name: src
-    label: src
+    name: title
+    label: title
   - type: text
-    name: alt
-    label: alt
-- name: menus
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
+    name: summary
+    label: summary
+  - type: list
+    name: menus
+    label: Menus
+    description: Show in which menus?
+    config:
+      use_select: true
+      max: 2
     source:
       type: simple
-  label: menus
-  description: Which menus should this page be shown in?
+    options:
+      - main
+      - quicklinks
+  - type: field_group
+    name: featuredImage
+    label: featuredImage
+    fields:
+      - type: file
+        name: src
+        label: src
+      - type: text
+        name: alt
+        label: alt
+  - type: field_group
+    name: cardImage
+    label: cardImage
+    fields:
+      - type: file
+        name: src
+        label: src
+      - type: text
+        name: alt
+        label: alt
+
 pages:
-- content/french/garden/cite-antique.md
+  - content/french/garden/cite-antique.md
