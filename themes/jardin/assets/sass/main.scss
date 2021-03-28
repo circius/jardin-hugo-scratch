@@ -189,6 +189,10 @@ header {
   @extend .align-items-center;
   @extend .justify-content-md-end;
   @extend .justify-content-center;
+  nav {
+    @extend .d-flex;
+    @extend .justify-content-center;
+  }
 }
 
 #header_logo {
