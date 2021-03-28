@@ -1,16 +1,38 @@
+{{ $googleBadge := resources.Get "google-play-badge2.png" }}
+{{ $appleBadge := resources.Get "apple-appstore-badge.svg" }}
+
 <footer>
-      <div class="remerciements">
-          <p>
-              Nous remercions nos partenaires:
-              <ul>
-                  <li><a href="/">these people</a></li>
-                  <li><a href="/">those people</a></li>
-                  <li><a href="/">more people</a></li>
-              </ul>
-          </p>
-      </div>
-    <div class="address">
-      <p>Parc botanique de Haute Bretagne<br />35133 Le Châtellier<br />0299954832</p>
-      <p><a href='{{ ref . "info/contact" }}'>contact us</a></p>
+  <div class="footer__column">
+    <p>Découvrir <a href="{{ ref . "info/app" }}">notre app:</a></p>
+    <div class="appBadges">
+      <a href="https://apps.apple.com/fr/app/hortus-botanica/id1527051518">
+        <img
+          class="appBadge"
+          src="{{ $appleBadge.RelPermalink }}"
+          alt="Get it
+        on the Apple Appstore"
+        />
+      </a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.hortus.botanica"
+        ><img
+          class="appBadge"
+          src="{{ $googleBadge.RelPermalink }}"
+          alt="Get it on Google Play"
+      /></a>
     </div>
+  </div>
+
+  <div class="footer__column">
+    <p>
+      Parc botanique de Haute Bretagne<br />35133 Le Châtellier<br />0299954832
+    </p>
+    <p>
+      Retrouvez nos <a href="{{ ref . "info/contact" }}">détails de contact</a>
+    </p>
+    <p>
+      Nous remercions
+      <a href="{{ ref . "info/partenaires" }}">nos partenaires.</a>
+    </p>
+  </div>
 </footer>

@@ -127,13 +127,24 @@ footer {
   @extend .d-flex;
   @extend .justify-content-around;
   @extend .bg-secondary;
+  @extend .py-3;
 }
 
 footer p,
 footer a,
 footer li {
-  font-size: smaller;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.appBadges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appBadge {
+  max-width: 120px;
+  display: block;
+  @extend .my-2;
 }
 
 //// responsive versions
