@@ -1,0 +1,61 @@
+#+TITLE: Editor operation manual for jardinbretagne.com
+
+This document aims to provide exhaustive guidance for editors whose job it is to elaborate the content of this new website for the /Parc Botanique de Haut Bretagne/.
+
+For the technically curious it also provides, at the end, a very cursory overview of the technologies with which it was built.
+* What is there to edit?
+** Pages
+* Editing existing material
+** The editing tools
+The site owner and her editors can use the site’s [[https://forestry.io][forestry]] interface both to edit existing material and to create new pages. The final way to access these editing tools remains to be determined.
+** What can be edited
+Most of the site’s content can be edited. This includes its [[*Menus][menus]], all the content on the [[*Homepage][homepage]], and, of course, the contents of the individual [[*Single Pages][pages]].
+** What can’t be edited
+At the moment there is no way to edit the content of the footer that’s found at the bottom of every page. You should agree with the developer a final version of this before the site is handed off.
+
+It’s also not possible to change the way the site as a whole *looks*. That’s fixed by the design. This relieves the site owner and her editors of the responsibility to decide how things should look: those decisions have already been taken.
+
+If the site owner or the editors discover that some kind of agreed content looks *broken* when it’s displayed, then this problem should be addressed to the developer.
+** What is a page?
+When we edit a page in forestry, we see two panels: on the left hand side, a list of toggles and switches; on the right hand side, a text editor. 
+
+The left hand side represents a page’s “front-matter”. These are “settings” for the page. They allow us to set what the large image at the top of the page should be, how the page should be summarised, and other features of the page.
+
+The right hand side represents the “contents” of a page. This is what is shown in the main body of a page: the main column of text and images.
+
+This is shown by default in a friendly word-processor-like format. The file itself is in a format called [[https://commonmark.org/help/][markdown]]; you can see this source by clicking the three dots in the upper-right corner of the forestry editor and clicking “raw editor” to see what things are being built from. This may sometimes be useful, but should mostly be unnecessary. *However, since some functionality of the site requires the editors to write raw markdown* (see, for example, [[*config.toml][here]]) *I recommend editors take the time to work through this [[https://commonmark.org/help/tutorial/][10-minute markdown tutorial]]* if they don’t already know how to use this very useful markup language.
+** Draft mode
+All pages have a “draft” property, allowing them to be written up without appearing on the live site. When the page is ready, turn draft mode off, and the page will appear on the site.
+
+** How to edit the website’s elements
+*** Menus
+The menus are all automatically generated. Different menus are generated from different sources. Some of these menus can be adjusted by the editors.
+**** What editable menus are there?
+The main menu which runs across the top of every page (the [[*Main (top) menu][main menu]]) and the set of black cards on the homepage (the [[*quicklinks][quicklinks]]) can both be edited. The other menus are all completely automatic and can’t be edited. They will update themselves to reflect changes in the content.
+**** Sources of the menus
+***** Front matter
+As explained [[*What is a page?][above]], all pages have associated “front matter” which is basically the settings for the page. One of these settings is called “menu”: this setting allows the editors to announce that they want the item to appear in the “main” or the “quicklinks” menu. 
+***** config.toml
+In order to allow linking offsite, or to parts of the site that are not pages, it’s possible to define cards in the ~settings~ file ~config.toml~. In principle it’s possible to add elements to any menu in this file, but the developer’s intention is that it only be used to modify the black ~quicklinks~ on the front page.
+
+The ~quicklinks~ are defined independently for each language - see internationalization - and the editors can add and remove as many as they like, although they should keep an eye on the visual effect this has on the homepage. Sticking to three is probably best, but four or even 5 might work ok.
+**** Main (top) menu
+This menu is generated exclusively from the [[*Front matter][front-matter]] of the site’s pages. That means that every page whose ~menu~ settings includes the setting ~main~ will show up here. That can mean an awful lot of menu entries! The developer would *strongly* recommend aiming to minimize the number of entries along this top bar to 4 or 5: it’s important to make the initial choices of users as simple as possible. If the editors want to emphasise some content, they can use [[*quicklinks][quicklinks]] or [[*feature cards][feature cards]]. 
+
+**** quicklinks
+The quicklinks - the black ’cards’ on the front page - are designed to allow the editors to highlight particular pages on the website, and to make prominent links off-site, for instance to the garden’s guest booking system.
+
+They are generated from two sources: 
++ from the [[*Front matter][Front matter]] of the site’s various pages (any page with ’quicklinks’ in its ~menu~ setting will show up)
++ from the entries in the ~quicklinks~ list defined underneath each of the site’s languages in [[*config.toml][config.toml]].
+*** Homepage
+
+**** carousel
+The carousel 
+**** feature cards
+**** quicklinks
+These are the black boxes just underneath the “welcome” sign. Their configuration is discussed underneath [[*quicklinks][menus]].
+*** Single Pages
+* Images
+* Underlying technologies
+All websites are basically made up of three component parts: [[https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5][HTML]] markup, which describes the things to be found on a page;  [[https://developer.mozilla.org/en-US/docs/Web/CSS][style sheets]] which tell browsers how to show those things; and [[https:https://developer.mozilla.org/en-US/docs/Web/JavaScript][javascript]], which can tell the site to do fancy things. 
