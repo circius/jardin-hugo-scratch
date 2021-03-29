@@ -26,6 +26,7 @@
     srcset="{{ $largeImage.RelPermalink | safeURL }}"
   />
   <img
+    loading="lazy"
     src="{{ $defaultImage.RelPermalink | safeURL }}"
     alt="{{ .Text }}"
     title="{{ .Title }}"
