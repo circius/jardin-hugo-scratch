@@ -162,8 +162,18 @@ footer li {
     margin-top: map-get($spacers, 4);
   }
 
-  .subnav::before {
+  .subnav__info::before {
     content: "info";
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    rotate: 180deg;
+    font-size: x-large;
+    color: $link-underline-color;
+    font-variant: small-caps;
+  }
+
+  .subnav__archive::before {
+    content: "archive";
     writing-mode: vertical-lr;
     text-orientation: sideways;
     rotate: 180deg;
@@ -580,3 +590,5 @@ div#hero {
   @extend .flex-column;
   @extend .flex-xl-row;
 }
+
+// evenement-specific formatting
