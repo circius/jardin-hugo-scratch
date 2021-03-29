@@ -1,18 +1,20 @@
-<div class="dropdown">
-  <button
-    class="btn btn-light dropdown-toggle p-0"
-    type="button"
-    id="langDropdownButton"
-    data-bs-toggle="dropdown"
-    aria-expanded="false"
-  >
-    {{ .Language.Lang }}
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
-    {{ range .Translations }}
-      <li>
-        <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Lang }}</a>
-      </li>
-    {{ end }}
-  </ul>
-</div>
+{{ if isset "Translations" . }}
+  <div class="dropdown">
+    <button
+      class="btn btn-light dropdown-toggle p-0"
+      type="button"
+      id="langDropdownButton"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      {{ .Language.Lang }}
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
+      {{ range .Translations }}
+        <li>
+          <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Lang }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

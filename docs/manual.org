@@ -51,7 +51,7 @@ They are generated from two sources:
 *** Homepage
 
 **** carousel
-The carousel 
+The carousel is configured 
 **** feature cards
 **** quicklinks
 These are the black boxes just underneath the “welcome” sign. Their configuration is discussed underneath [[*quicklinks][menus]].
@@ -59,3 +59,14 @@ These are the black boxes just underneath the “welcome” sign. Their configur
 * Images
 * Underlying technologies
 All websites are basically made up of three component parts: [[https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5][HTML]] markup, which describes the things to be found on a page;  [[https://developer.mozilla.org/en-US/docs/Web/CSS][style sheets]] which tell browsers how to show those things; and [[https:https://developer.mozilla.org/en-US/docs/Web/JavaScript][javascript]], which can tell the site to do fancy things. 
+
+
+
+
+
+
+
+
+
+
+

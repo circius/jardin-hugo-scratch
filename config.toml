@@ -3,7 +3,7 @@ baseURL                = "/"
 languageCode           = "fr-FR"
 theme                  = "jardin"
 
-disableLanguages = []
+disableLanguages = ["en"]
 
 [languages.en]
 contentDir   = "content/english"
