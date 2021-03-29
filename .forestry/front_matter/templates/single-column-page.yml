@@ -13,7 +13,7 @@ fields:
   label: date
   description: Date representing when an event took place. Only useful for 'evenements'
   config:
-    required: true
+    required: false
     date_format: DD/MM/YYYY
     time_format: 
     display_utc: false
@@ -38,7 +38,7 @@ fields:
     min: 
     max: 
     step: 1
-    required: true
+    required: false
   label: weight in menu
   description: The lower this number is, the nearer to the top of its menus this page
     is, relative to other pages with weight set. All pages with weight set come before
