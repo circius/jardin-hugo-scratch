@@ -1,4 +1,5 @@
-{{ if isset "Translations" . }}
+{{ $currentLanguage := .Language.Lang }}
+{{ with .Translations }}
   <div class="dropdown">
     <button
       class="btn btn-light dropdown-toggle p-0"
@@ -7,10 +8,10 @@
       data-bs-toggle="dropdown"
       aria-expanded="false"
     >
-      {{ .Language.Lang }}
+      {{ $currentLanguage }}
     </button>
     <ul class="dropdown-menu" aria-labelledby="langDropdownButton">
-      {{ range .Translations }}
+      {{ range . }}
         <li>
           <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Lang }}</a>
         </li>
