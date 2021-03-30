@@ -1,6 +1,4 @@
 {{ $imageResource := resources.Get "flowerbush.png" }}
-<img
-  src="{{ $imageResource.RelPermalink }}"
-  id="header_logo"
-  alt="bush with yellow and red flowers"
-/>
+{{ $imageResized := $imageResource.Resize "60x" }}
+
+<img src="{{ $imageResized.RelPermalink }}" id="header_logo" alt= />
