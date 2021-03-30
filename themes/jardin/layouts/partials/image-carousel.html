@@ -1,8 +1,10 @@
-{{ $img := resources.Get . }}
-{{ with $img }}
+{{ $image := resources.Get . }}
+{{ $tinyImage := $image.Resize "500x" }}
+{{ $largeImage := $image.Resize "1500x" }}
+{{ with $image }}
   <img
     loading="lazy"
-    src="{{ $img.RelPermalink }}"
+    src="{{ $largeImage.RelPermalink }}"
     class="d-block w-100"
     alt="..."
   />

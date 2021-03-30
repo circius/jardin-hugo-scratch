@@ -1,5 +1,8 @@
+{{ $image := resources.Get .src }}
+{{ $largeImage := $image.Fill "1800x500" }}
 <div
   id="hero"
   class="align-self-center"
-  style="background-image: url('{{ .src }}')"
+  style="background-image: url('{{ $largeImage.RelPermalink }}')"
+  alt="{{ .alt }}"
 ></div>
