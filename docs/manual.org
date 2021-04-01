@@ -1,10 +1,9 @@
 #+TITLE: Editor operation manual for jardinbretagne.com
+#+SETUPFILE: ~/.emacs.d/personal/org-html-themes/setup/theme-readtheorg.setup
 
 This document aims to provide exhaustive guidance for editors whose job it is to elaborate the content of this new website for the /Parc Botanique de Haut Bretagne/.
 
 For the technically curious it also provides, at the end, a very cursory overview of the technologies with which it was built.
-* What is there to edit?
-** Pages
 * Editing existing material
 ** The editing tools
 The site owner and her editors can use the site’s [[https://forestry.io][forestry]] interface both to edit existing material and to create new pages. The final way to access these editing tools remains to be determined.

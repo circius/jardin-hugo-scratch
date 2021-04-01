@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-04-01 Thu 10:45 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Editor operation manual for jardinbretagne.com</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="mikkel" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Editor operation manual for jardinbretagne.com</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgb5edc09">1. Editing existing material</a>
+<ul>
+<li><a href="#org07b1923">1.1. The editing tools</a></li>
+<li><a href="#org3cb2a83">1.2. What can be edited</a></li>
+<li><a href="#org33cddbe">1.3. What can’t be edited</a></li>
+<li><a href="#orgc1d1eac">1.4. What is a page?</a></li>
+<li><a href="#org367e6f3">1.5. Draft mode</a></li>
+<li><a href="#org0661a96">1.6. How to edit the website’s elements</a>
+<ul>
+<li><a href="#org24eb19f">1.6.1. Menus</a></li>
+<li><a href="#orgbc745d7">1.6.2. Homepage</a></li>
+<li><a href="#org2612aac">1.6.3. Single Pages</a></li>
+<li><a href="#org779f1cc">1.6.4. Special single pages</a></li>
+<li><a href="#org9399a85">1.6.5. list pages</a></li>
+<li><a href="#orgd07a9a2">1.6.6. special list pages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org07169a5">2. Creating new material</a>
+<ul>
+<li><a href="#org7c9d618">2.1. What can be created?</a></li>
+<li><a href="#orgebcf2e1">2.2. Where can single column pages be created?</a></li>
+</ul>
+</li>
+<li><a href="#orgf8db7dd">3. Translating the material</a>
+<ul>
+<li><a href="#orge4249c4">3.1. How translation works</a></li>
+</ul>
+</li>
+<li><a href="#org9e1bf24">4. Images</a></li>
+<li><a href="#org8a09b4b">5. Underlying technologies</a>
+<ul>
+<li><a href="#orgec8ab01">5.1. markdown</a>
+<ul>
+<li><a href="#org85b39f6">5.1.1. links in markdown</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+This document aims to provide exhaustive guidance for editors whose job it is to elaborate the content of this new website for the <i>Parc Botanique de Haut Bretagne</i>.
+</p>
+
+<p>
+For the technically curious it also provides, at the end, a very cursory overview of the technologies with which it was built.
+</p>
+<div id="outline-container-orgb5edc09" class="outline-2">
+<h2 id="orgb5edc09"><span class="section-number-2">1</span> Editing existing material</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org07b1923" class="outline-3">
+<h3 id="org07b1923"><span class="section-number-3">1.1</span> The editing tools</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+The site owner and her editors can use the site’s <a href="https://forestry.io">forestry</a> interface both to edit existing material and to create new pages. The final way to access these editing tools remains to be determined.
+</p>
+</div>
+</div>
+<div id="outline-container-org3cb2a83" class="outline-3">
+<h3 id="org3cb2a83"><span class="section-number-3">1.2</span> What can be edited</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Most of the site’s content can be edited. This includes its <a href="#org24eb19f">menus</a>, all the content on the <a href="#orgbc745d7">homepage</a>, and, of course, the contents of the individual <a href="#org2612aac">pages</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-org33cddbe" class="outline-3">
+<h3 id="org33cddbe"><span class="section-number-3">1.3</span> What can’t be edited</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+At the moment there is no way to edit the content of the footer that’s found at the bottom of every page. You should agree with the developer a final version of this before the site is handed off.
+</p>
+
+<p>
+It’s also not possible to change the way the site as a whole <b>looks</b>. That’s fixed by the design. This relieves the site owner and her editors of the responsibility to decide how things should look: those decisions have already been taken.
+</p>
+
+<p>
+If the site owner or the editors discover that some kind of agreed content looks <b>broken</b> when it’s displayed, then this problem should be addressed to the developer.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc1d1eac" class="outline-3">
+<h3 id="orgc1d1eac"><span class="section-number-3">1.4</span> What is a page?</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+When we edit a page in forestry, we see two panels: on the left hand side, a list of toggles and switches; on the right hand side, a text editor. 
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgc49fea1"></a>front matter<br />
+<div class="outline-text-5" id="text-1-4-0-1">
+<p>
+The left hand side represents a page’s “front-matter”. These are “settings” for the page. They allow us to set what the large image at the top of the page should be, how the page should be summarised, and other features of the page.
+</p>
+</div>
+</li>
+<li><a id="org0bc20cd"></a>content<br />
+<div class="outline-text-5" id="text-1-4-0-2">
+<p>
+The right hand side represents the “contents” of a page. This is what is shown in the main body of a page: the main column of text and images.
+</p>
+
+<p>
+This is shown by default in a friendly word-processor-like format. The file itself is in a format called <a href="https://commonmark.org/help/">markdown</a>; you can see this source by clicking the three dots in the upper-right corner of the forestry editor and clicking “raw editor” to see what things are being built from. This may sometimes be useful, but should mostly be unnecessary. <b>However, since some functionality of the site requires the editors to write raw markdown</b> (see, for example, <a href="#org813db41">here</a>) <b>I recommend editors take the time to work through this <a href="https://commonmark.org/help/tutorial/">10-minute markdown tutorial</a></b> if they don’t already know how to use this very useful markup language.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org367e6f3" class="outline-3">
+<h3 id="org367e6f3"><span class="section-number-3">1.5</span> Draft mode</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+All pages have a “draft” property, allowing them to be written up without appearing on the live site. When the page is ready, turn draft mode off, and the page will appear on the site.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0661a96" class="outline-3">
+<h3 id="org0661a96"><span class="section-number-3">1.6</span> How to edit the website’s elements</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org24eb19f" class="outline-4">
+<h4 id="org24eb19f"><span class="section-number-4">1.6.1</span> Menus</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<p>
+The menus are all automatically generated. Different menus are generated from different sources. Some of these menus can be adjusted by the editors.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org0adea81"></a>What editable menus are there?<br />
+<div class="outline-text-5" id="text-1-6-1-1">
+<p>
+The main menu which runs across the top of every page (the <a href="#orgc321c1d">main menu</a>) and the set of black cards on the homepage (the <a href="#orgf748080">quicklinks</a>) can both be edited. The other menus are all completely automatic and can’t be edited. They will update themselves to reflect changes in the content.
+</p>
+</div>
+</li>
+<li><a id="org4b09771"></a>Sources of the menus<br />
+<ol class="org-ol">
+<li><a id="orge80f9eb"></a>Front matter<br />
+<div class="outline-text-6" id="text-1-6-1-2-1">
+<p>
+As explained <a href="#orgc1d1eac">above</a>, all pages have associated “front matter” which is basically the settings for the page. One of these settings is called “menu”: this setting allows the editors to announce that they want the item to appear in the “main” or the “quicklinks” menu. 
+</p>
+</div>
+</li>
+<li><a id="org813db41"></a>config.toml<br />
+<div class="outline-text-6" id="text-1-6-1-2-2">
+<p>
+In order to allow linking offsite, or to parts of the site that are not pages, it’s possible to define cards in the <code>settings</code> file <code>config.toml</code>. In principle it’s possible to add elements to any menu in this file, but the developer’s intention is that it only be used to modify the black <code>quicklinks</code> on the front page.
+</p>
+
+<p>
+The <code>quicklinks</code> are defined independently for each language - see internationalization - and the editors can add and remove as many as they like, although they should keep an eye on the visual effect this has on the homepage. Sticking to three is probably best, but four or even 5 might work ok.
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgc321c1d"></a>Main (top) menu<br />
+<div class="outline-text-5" id="text-1-6-1-3">
+<p>
+This menu is generated exclusively from the <a href="#orge80f9eb">front-matter</a> of the site’s pages. That means that every page whose <code>menu</code> settings includes the setting <code>main</code> will show up here. That can mean an awful lot of menu entries! The developer would <b>strongly</b> recommend aiming to minimize the number of entries along this top bar to 4 or 5: it’s important to make the initial choices of users as simple as possible. If the editors want to emphasise some content, they can use <a href="#orgf748080">quicklinks</a> or <a href="#org9e326c4">feature cards</a>. 
+</p>
+</div>
+</li>
+
+<li><a id="orgf748080"></a>quicklinks<br />
+<div class="outline-text-5" id="text-1-6-1-4">
+<p>
+The quicklinks - the black ’cards’ on the front page - are designed to allow the editors to highlight particular pages on the website, and to make prominent links off-site, for instance to the garden’s guest booking system.
+</p>
+
+<p>
+They are generated from two sources: 
+</p>
+<ul class="org-ul">
+<li>from the <a href="#orge80f9eb">Front matter</a> of the site’s various pages (any page with ’quicklinks’ in its <code>menu</code> setting will show up)</li>
+<li>from the entries in the <code>quicklinks</code> list defined underneath each of the site’s languages in <a href="#org813db41">config.toml</a>.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgbc745d7" class="outline-4">
+<h4 id="orgbc745d7"><span class="section-number-4">1.6.2</span> Homepage</h4>
+<div class="outline-text-4" id="text-1-6-2">
+</div>
+<ol class="org-ol">
+<li><a id="org0f0c936"></a>carousel<br />
+<div class="outline-text-5" id="text-1-6-2-1">
+<p>
+The carousel is configured in the <code>settings</code> file <code>carousel.toml</code>. See the <a href="#org9e1bf24">image guidelines</a> for advice about appropriate image sizes. At its full size the carousel is 1800 pixels wide and 800 pixels tall: although it will automatically make whatever images you assign to it fit, if you want the maximum possible control over how the image is displayed you should crop your images in this aspect ratio. But It’s probably better as a rule just to pick normal photographs that look nice and let the software crop them - it will normally be good enough.
+</p>
+</div>
+</li>
+<li><a id="org9e326c4"></a>feature cards<br />
+<div class="outline-text-5" id="text-1-6-2-2">
+<p>
+These are the “cards” at the bottom of the homepage: an image, with a little text that can feature links. These are designed to allow a more engaging way to emphasise content than the quicklinks.
+</p>
+
+<p>
+These are configured in the <a href="#orge80f9eb">Front matter</a> of the homepages for the different enabled languages. The features for each language must be configured separately (but note that you don’t have to upload the image you want to use multiple times: once you’ve done it once, you’ll find it in forestry’s media library.)
+</p>
+
+<p>
+Their settings are fairly self-explanatory. The only tricky thing is that links must be written in the markup language <a href="#org0bc20cd">markdown</a>. See <a href="#org85b39f6">links in markdown</a>.
+</p>
+</div>
+</li>
+
+<li><a id="org65fc502"></a>quicklinks<br />
+<div class="outline-text-5" id="text-1-6-2-3">
+<p>
+These are the black boxes just underneath the “welcome” sign. Their configuration is discussed underneath <a href="#orgf748080">menus</a>. It’s very straightforward except that, as with <a href="#org9e326c4">feature cards</a>, any links must be inserted with explicit <a href="#org0bc20cd">markdown</a>; see <a href="#org85b39f6">links in markdown</a>.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org2612aac" class="outline-4">
+<h4 id="org2612aac"><span class="section-number-4">1.6.3</span> Single Pages</h4>
+<div class="outline-text-4" id="text-1-6-3">
+<p>
+Most pages on the site are <code>single column pages</code>. That means that they have some default <a href="#orgc49fea1">front matter</a> and that they display whatever <a href="#org0bc20cd">content</a> the editors give them in a single column that runs down the center of the page. <b>almost all the customization of the website involves adding content to single pages.</b> You can add as much content as you like to an individual page.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgb1f6f69"></a>featured images<br />
+<div class="outline-text-5" id="text-1-6-3-1">
+<p>
+Every single page can have what’s called a <code>hero</code> image, called in the page’s front matter a <code>featuredImage</code>. This is shown at the top of the page.
+</p>
+</div>
+</li>
+<li><a id="org75164f7"></a>summaries and card images<br />
+<div class="outline-text-5" id="text-1-6-3-2">
+<p>
+When single pages appear in menus, they often appear with a <code>summary</code> text. This is automatically generated by default, but quite stupidly; The editors can (and normally should) explicitly define a <code>summary</code> in each page’s front matter.
+</p>
+
+<p>
+When single pages appear in menus, they sometimes appear with an image. This image is derived from the <code>featuredImage</code> if one exists. If this isn’t desirable for some reason, it’s also possible to add a <code>cardImage</code>; this will be used instead of the <code>featuredImage</code> for menu cards.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org779f1cc" class="outline-4">
+<h4 id="org779f1cc"><span class="section-number-4">1.6.4</span> Special single pages</h4>
+<div class="outline-text-4" id="text-1-6-4">
+</div>
+<ol class="org-ol">
+<li><a id="org326eb76"></a>The info page<br />
+<div class="outline-text-5" id="text-1-6-4-1">
+<p>
+The info page is a single-column page, but (because it’s where we store lots of bits of information) it also has a submenu. This submenu is automatically generated from two sources:
+</p>
+
+<ul class="org-ul">
+<li>the headers in the content of the info page</li>
+<li>the other single column pages in the info folder.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org9399a85" class="outline-4">
+<h4 id="org9399a85"><span class="section-number-4">1.6.5</span> list pages</h4>
+<div class="outline-text-4" id="text-1-6-5">
+<p>
+Some pages exist just to show subpages. For instance, <code>/evenements/</code> shows the three events that are defined, <code>hanami</code>, <code>concours</code> and <code>voyageurs</code>. These pages are automatically generated based on the front-matter of the pages they show.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd07a9a2" class="outline-4">
+<h4 id="orgd07a9a2"><span class="section-number-4">1.6.6</span> special list pages</h4>
+<div class="outline-text-4" id="text-1-6-6">
+</div>
+<ol class="org-ol">
+<li><a id="orgf57aecf"></a>hanami, concours and voyageurs<br />
+<div class="outline-text-5" id="text-1-6-6-1">
+<p>
+These are a bit complex. Each of them is a bit like a little blog: editors can add new pages 
+These are basically little blogs. A new page in <code>hanami</code>, <code>concours</code> or <code>voyageurs</code> must have its <code>date</code> set in the front-matter to correspond to the date when the event took place. <b>these pages will always show the latest event</b>, while offering links to previous events.
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org07169a5" class="outline-2">
+<h2 id="org07169a5"><span class="section-number-2">2</span> Creating new material</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7c9d618" class="outline-3">
+<h3 id="org7c9d618"><span class="section-number-3">2.1</span> What can be created?</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+As presently configured, the editors can create <b>single-column-pages</b>, <b>quicklinks</b> and <b>feature cards</b>. everything else is automatically generated.
+</p>
+</div>
+</div>
+<div id="outline-container-orgebcf2e1" class="outline-3">
+<h3 id="orgebcf2e1"><span class="section-number-3">2.2</span> Where can single column pages be created?</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+New single column pages will be recognised and indexed when they are created in the following subdirectories:
+</p>
+
+<ul class="org-ul">
+<li><code>/info</code></li>
+<li><code>/location</code></li>
+<li><code>/garden</code></li>
+<li><code>/evenements/hanami</code></li>
+<li><code>/evenements/concours</code></li>
+<li><code>/evenements/voyageurs</code></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf8db7dd" class="outline-2">
+<h2 id="orgf8db7dd"><span class="section-number-2">3</span> Translating the material</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge4249c4" class="outline-3">
+<h3 id="orge4249c4"><span class="section-number-3">3.1</span> How translation works</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Every translation is a kind of “shadow copy” of the default (french) site’s content. Each copy has its own folder: <code>content/LANGUAGE</code>. Every page to be translated must exist in <b>both</b> folders, in <b>identical</b> places, with an <b>identical</b> file name. 
+</p>
+
+<p>
+The translation is configured in <code>config.toml</code>, where each language has its own settings (under <code>languages</code>.) This includes the translation of the site’s title and the <code>quicklinks</code>. 
+</p>
+
+<p>
+Also in the <code>config.toml</code> is the option to <b>disable</b> certain languages. Any language-codes specified here (“en”, “es” etc) will not be available on the site, even if their translation files are there. This is like “draft mode” for site-translation. When you’re working on a translation, disable it! then when the translation is finished, remove the setting.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9e1bf24" class="outline-2">
+<h2 id="org9e1bf24"><span class="section-number-2">4</span> Images</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Images should <b>always</b> be less than or equal to 1mb in size. This is critical for google search rankings and user experience, as well as the sustainability of the site as currently configured. (We can support many hundreds of 1mb images.)
+</p>
+
+<p>
+I recommend starting with the free tool <a href="https://imageoptim.com/howto.html">imageoptim</a> in dealing with this problem. I’m available to help if this proves too difficult to handle. 
+</p>
+</div>
+</div>
+<div id="outline-container-org8a09b4b" class="outline-2">
+<h2 id="org8a09b4b"><span class="section-number-2">5</span> Underlying technologies</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+All websites are basically made up of three component parts: <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML</a> markup, which describes the things to be found on a page;  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">style sheets</a> which tell browsers how to show those things; and <a href="https:https://developer.mozilla.org/en-US/docs/Web/JavaScript">javascript</a>, which can tell the site to do fancy things. 
+</p>
+</div>
+<div id="outline-container-orgec8ab01" class="outline-3">
+<h3 id="orgec8ab01"><span class="section-number-3">5.1</span> markdown</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+See this <a href="https://commonmark.org/help/">cheatsheet</a> and this  <a href="https://commonmark.org/help/tutorial/">10-minute markdown tutorial</a>.
+</p>
+</div>
+<div id="outline-container-org85b39f6" class="outline-4">
+<h4 id="org85b39f6"><span class="section-number-4">5.1.1</span> links in markdown</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+<code>[Link](http://a.com)</code>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: mikkel</p>
+<p class="date">Created: 2021-04-01 Thu 10:45</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
