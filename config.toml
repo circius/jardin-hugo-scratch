@@ -14,7 +14,7 @@ weight       = 20
         [[languages.en.menu.quicklinks]]
         name  = "elloha"
         post  = "A beautiful gift for someone you love"
-        title = "Give a visit!"
+        title = "Give a visit"
         url   = "https://elloha.fr"
 
         [[languages.en.menu.quicklinks]]
@@ -33,7 +33,7 @@ weight       = 10
         [[languages.fr.menu.quicklinks]]
         name  = "elloha"
         post  = "A beautiful gift for someone you love"
-        title = "Give a visit!"
+        title = "Give a visit"
         url   = "https://elloha.fr"
 
         [[languages.fr.menu.quicklinks]]
