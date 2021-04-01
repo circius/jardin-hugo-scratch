@@ -3,6 +3,7 @@
 
 This document aims to provide exhaustive guidance for editors whose job it is to elaborate the content of this new website for the /Parc Botanique de Haut Bretagne/.
 
+
 For the technically curious it also provides, at the end, a very cursory overview of the technologies with which it was built.
 * Editing existing material
 ** The editing tools
@@ -103,6 +104,20 @@ Also in the ~config.toml~ is the option to *disable* certain languages. Any lang
 Images should *always* be less than or equal to 1mb in size. This is critical for google search rankings and user experience, as well as the sustainability of the site as currently configured. (We can support many hundreds of 1mb images.)
 
 I recommend starting with the free tool [[https://imageoptim.com/howto.html][imageoptim]] in dealing with this problem. I’m available to help if this proves too difficult to handle. 
+** Image formats / aspect ratios
+
+The site will automatically give images uploaded to it the right aspect ratio when they’re shown on the page, but for some of the larger images - mainly the Hero images and the carousel ones - it might be useful to know what the precise formats are
+
+| image type                   | max format in pixels |
+|------------------------------+----------------------|
+| carousel                     | 1800 x 700           |
+| hero                         | 1800 x 500           |
+| inline image in page content | 600 x 400 (roughly)  |
+** how much is too much?
+The site should work perfectly for up to 500 images if those images are all less than 1mb. The site will always work better for users if they can be kept down to ~ 500kb, but this may not always be possible for the carousel and the hero images.
+** Cleaning up
+Whenever an image is no longer being used on the site it should be deleted from the media library.
+
 * Underlying technologies
 All websites are basically made up of three component parts: [[https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5][HTML]] markup, which describes the things to be found on a page;  [[https://developer.mozilla.org/en-US/docs/Web/CSS][style sheets]] which tell browsers how to show those things; and [[https:https://developer.mozilla.org/en-US/docs/Web/JavaScript][javascript]], which can tell the site to do fancy things. 
 ** markdown
