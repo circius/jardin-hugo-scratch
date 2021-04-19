@@ -2,6 +2,8 @@
 title: Informations pratiques
 type: info
 layout: info-main
+menu:
+- main
 
 ---
 ## nos horaires
