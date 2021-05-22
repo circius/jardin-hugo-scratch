@@ -44,7 +44,7 @@ sections:
 - type: document
   path: config.toml
   label: config
-upload_dir: jardin-bretagne
+upload_dir: parc-botanique
 public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
