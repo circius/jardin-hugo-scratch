@@ -1,11 +1,14 @@
 ---
 title: jardin du soleil levant
-summary: "La lumière du matin inonde ce jardin, douce combinaison du minéral, de l'aquatique et du végétal."
+summary: La lumière du matin inonde ce jardin, douce combinaison du minéral, de l'aquatique
+  et du végétal.
 featuredImage:
   src: "/uploads/lanterne-2021-03-12.jpg"
   alt: lanterne
----
+cardImage:
+  src: "/uploads/soleil-levant-2021.jpg"
 
+---
 {{< quote author="Empereur Kôkô" source="Shin Kokin-Shû">}}
 Voici des fruits, des fleurs, des feuilles et des branches<br/>
 J'arrive tout humide encore de rosée<br/>
