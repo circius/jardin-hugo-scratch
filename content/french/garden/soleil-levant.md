@@ -24,6 +24,8 @@ Le deuxième, le jardin sec, expression épurée de la pensée "zen" est l'arch�
 
 Le troisième, le jardin de thé, occupe traditionnellement l'espace qui entoure le pavillon réservé à la cérémonie du thé. À l'entrée, une vasque rituelle (tsukubai) permet de se purifier les mains. À proximité un hydrangea serrata "Oamacha" a la particularité de servir d'infusion à l'occasion de l'anniversaire de la naissance de Bouddha (le 8 avril).
 
+![](/uploads/background.png)
+
 Ce jardin est bercé par le chant d'une cascade.
 
 La cascade alimente un ruisseau qu'enjambe un pont rouge. Du pont, une allée de pierres de passage en "vol d'oie" conduit à une grande lanterne en granit.
