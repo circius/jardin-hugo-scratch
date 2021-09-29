@@ -1,55 +1,44 @@
 DefaultContentLanguage = "fr"
-baseURL                = "/"
-languageCode           = "fr-FR"
-theme                  = "jardin"
-
-disableLanguages = ["en", "es"]
-
+baseURL = "/"
+disableLanguages = []
+languageCode = "fr-FR"
+theme = "jardin"
 [languages.en]
-contentDir   = "content/english"
+contentDir = "content/english"
 languageName = "English"
-title        = "Botanical Gardens of Upper Brittany"
-weight       = 20
-
-        [[languages.en.menu.quicklinks]]
-        name  = "elloha"
-        post  = "A beautiful gift for someone you love"
-        title = "Give a visit"
-        url   = "https://elloha.fr"
-
-        [[languages.en.menu.quicklinks]]
-        name  = "hours"
-        post  = "when you can visit"
-        title = "Our opening hours"
-        url   = "/en/info/#horaires"
-
-
-[languages.fr]
-contentDir   = "content/french"
-languageName = "Français"
-title        = "Parc botanique de Haute Bretagne"
-weight       = 10
-
-        [[languages.fr.menu.quicklinks]]
-        name  = "elloha"
-        post  = "A beautiful gift for someone you love"
-        title = "Give a visit"
-        url   = "https://elloha.fr"
-
-        [[languages.fr.menu.quicklinks]]
-        name  = "horaires"
-        post  = "quand visiter?"
-        title = "nos horaires"
-        url   = "/info/#horaires"
-
+title = "Botanical Gardens of Upper Brittany"
+weight = 20
+[[languages.en.menu.quicklinks]]
+name = "elloha"
+post = "A beautiful gift for someone you love"
+title = "Give a visit"
+url = "https://elloha.fr"
+[[languages.en.menu.quicklinks]]
+name = "hours"
+post = "when you can visit"
+title = "Our opening hours"
+url = "/en/info/#horaires"
 [languages.es]
-contentDir   = "content/spanish"
+contentDir = "content/spanish"
 languageName = "Spanish"
-title        = "Parque Botánico de la Alta Bretaña"
-weight       = 30
-
-
+title = "Parque Botánico de la Alta Bretaña"
+weight = 30
+[languages.fr]
+contentDir = "content/french"
+languageName = "Français"
+title = "Parc botanique de Haute Bretagne"
+weight = 10
+[[languages.fr.menu.quicklinks]]
+name = "elloha"
+post = "A beautiful gift for someone you love"
+title = "Give a visit"
+url = "https://elloha.fr"
+[[languages.fr.menu.quicklinks]]
+name = "horaires"
+post = "quand visiter?"
+title = "nos horaires"
+url = "/info/#horaires"
 [markup.tableOfContents]
-endLevel   = 2
-ordered    = false
+endLevel = 2
+ordered = false
 startLevel = 2
