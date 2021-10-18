@@ -1,8 +1,12 @@
 ---
 title: groupes de scolaires
 summary: Les visites festives ou pédagogique pour les gosses
----
+menu:
+  main:
+    name: Écoles
+    weight: 6
 
+---
 Trois formules sont proposées pour découvrir le parc botanique de Haute Bretagne:
 
 - Une sortie en liberté à 5,00€ par enfant (gratuit pour l'encadrement). Une découverte des jardins en matinée pendant 1h30 - 2h, à l'aide d'une fiche pédagogique adaptée à chaque cycle. Après le pique-nique sur l'herbe ou sous un préau couvert, un jeu ou un approfondissement de la thématique choisie peuvent être proposés.
