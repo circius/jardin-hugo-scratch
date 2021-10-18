@@ -8,10 +8,10 @@ menu:
 ---
 ## nos horaires
 
-**NOUS SOMMES OUVERTS** du 1ère mars au 15ième novembre:
+**NOUS SOMMES OUVERTS** du 1er mars au 15 novembre:
 
 * **En mars, octobre et novembre** de 14h à 17h30
-* **En avril, mai, juin et septembre** de 11h à 18
+* **En avril, mai, juin et septembre** de 11h à 18h
 * **En juillet et août** de 10h30 à 18h30
 
 ## tarifs
@@ -43,7 +43,7 @@ menu:
 
 {{< /bootstrap-table >}}
 
-Les chiens tenus en laisse sont les bienvenus.
+Les **chiens** tenus en laisse sont les bienvenus.
 
 #### le tarif réduit
 
@@ -60,3 +60,21 @@ L’accès au parc est fléché depuis
 
 * la sortie 30 de l’autoroute A84 (panneaux PARC BOTANIQUE, direction St Germain en Coglès puis Le Châtellier)
 * la sortie 31 de l’autoroute A 84 (panneaux PARC BOTANIQUE, direction Montours puis Le Châtellier)
+
+## la jardinerie
+
+Ouverte toute l'année Ptarick Trublet vous accueille, 
+
+patrick.trublet@jardinbretagne.com
+
+## le restaurant le Casse- Graines
+
+Stéphane Galon, notre voisin, 
+
+## pique-nique 
+
+Une aire de pique-nique avec un espace couvert est mise à votre disposition à l'entrée des jardins. 
+
+## le salon de thé, Le Flore
+
+## boutique souvenirs et librairie horticole
