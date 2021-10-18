@@ -7,8 +7,9 @@ feature:
     featuredimage:
       src: "/uploads/dionysos.jpeg"
       alt: Jardin de Dionysos
-  Title: Nous sommes ouverts tous les jours du 1er mars au 15 novembre
-  Summary: Voir nos [horaires](/info/#horaires) et tarifs d'entrée [tarifs](/info/#tarifs)
-    .
+  Title: ''
+  Summary: |-
+    Nous sommes ouverts tous les jours du 1er mars au 15 novembre.
+    Voir nos [horaires](/info/#horaires) et tarifs d'entrée [tarifs](/info/#tarifs) .
 
 ---
