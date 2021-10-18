@@ -1,4 +1,8 @@
 ---
 title: Receptions
-menu: main
+menu:
+  main:
+    name: Services
+    weight: 5
+
 ---

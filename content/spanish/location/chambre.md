@@ -1,4 +1,7 @@
 ---
 title: Chambres d'hôtes
-menu: main
+menu:
+  main:
+    weight: 4
+
 ---
