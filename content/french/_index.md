@@ -13,4 +13,3 @@ feature:
     - Open from 1st of March until 15th November. See our [open time](/info/#horaires) and [prices](/info/#tarifs).
 
 ---
-_- Open from 1st of March until 15th November. See our \[open time\](/info/#horaires) and \[prices\](/info/#tarifs)._
