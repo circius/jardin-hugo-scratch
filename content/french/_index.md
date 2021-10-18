@@ -1,12 +1,12 @@
 ---
-subtitle: Bienvenue aux jardins
-announcement: URGENT TEMPORARY ANNOUNCEMENT -> [ici](/en/info/groupes/)
+subtitle: Un dédale de jardins à découvrir à différentes saisons
+announcement: TEMPORARY ANNOUNCEMENT -> [ici](/en/info/groupes/)
 feature:
 - Params:
     featuredimage:
       src: "/uploads/dionysos.jpeg"
       alt: dionysos!
-  Title: nous sommes ouverts
-  Summary: Finalement on est la pour vous! Voir nos [horaires](/info/#horaires).
+  Title: Nous sommes ouverts tous les jours du 1er mars au 15 novembre
+  Summary: Voir nos [horaires](/info/#horaires).
 
 ---
