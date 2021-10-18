@@ -1,6 +1,7 @@
 ---
 subtitle: Un dédale de jardins à découvrir au gré des saisons
-announcement: TEMPORARY ANNOUNCEMENT -> [ici](/en/info/groupes/)
+announcement: TÉLÉCHARGEZ NOTRE APPLICATION POUR DÉCOUVRIR LES CARACTÉRISTQIUES DE
+  MILIERS D'ESPÈCES -> [ici](/en/info/groupes/)
 feature:
 - Params:
     featuredimage:
