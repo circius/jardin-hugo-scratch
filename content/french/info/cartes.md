@@ -1,4 +1,6 @@
 ---
-title: Cartes des jardins
+title: Plan des jardins
+menu:
+- main
 
 ---
