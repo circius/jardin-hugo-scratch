@@ -1,5 +1,5 @@
 ---
-subtitle: Un dédale de jardins à découvrir au gré des saisons
+subtitle: Un dédale de jardins à découvrir au fil des saisons
 announcement: TÉLÉCHARGEZ NOTRE APPLICATION POUR DÉCOUVRIR LES CARACTÉRISTQIUES DE
   MILIERS D'ESPÈCES -> [ici](/en/info/groupes/)
 feature:
