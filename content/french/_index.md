@@ -1,6 +1,6 @@
 ---
 subtitle: Un dédale de jardins à découvrir au fil des saisons
-announcement: TÉLÉCHARGEZ NOTRE APPLICATION POUR DÉCOUVRIR LES CARACTÉRISTQIUES DE
+announcement: TÉLÉCHARGEZ NOTRE APPLICATION POUR DÉCOUVRIR LES CARACTÉRISTIQUES DE
   MILIERS D'ESPÈCES -> [ici](/en/info/groupes/)
 feature:
 - Params:
