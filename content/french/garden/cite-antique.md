@@ -8,8 +8,8 @@ weight = nil
 alt = ""
 src = ""
 [featuredImage]
-alt = "le lac du cité"
-src = "/uploads/dsc_0054-2021-03-09.jpeg"
+alt = "La cité Antique "
+src = "/uploads/background-17.png"
 
 +++
 {{< quote author="Homère" source="Odyssée, chant VII, vers 112" >}} Aux côtés de la cour, on voit un grand jardin,<br/>
