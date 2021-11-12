@@ -1,6 +1,9 @@
 +++
-summary = "Ce jardin a été conçu dans l'ancien potager entièrement clos de murs."
+date = ""
+menu = []
+summary = "Ce jardin clos a été conçu dans l'ancien potager de la propriété."
 title = "cité antique"
+weight = nil
 [cardImage]
 alt = ""
 src = ""
@@ -18,7 +21,7 @@ Son plan fait référence à celui d’une cité antique. Dans une enceinte carr
 
 Les genévriers au port fastigié rappellent les colonnes d’une rue à portiques.
 
-![photo d'un arc composé des fleurs](/uploads/cite-1.jpg "arcade de rose")
+![](/uploads/background-7.png)
 
 La première partie centrale, au nord-est, évoque l’odéon. Sur ses gradins ont été plantés des iris qui forment un arc-en-ciel.
 
@@ -29,8 +32,8 @@ La deuxième partie, au nord-ouest, représente un jardin allégorique divisé e
 * le jardinet de Marie symbolisé par un cèdre nain du Liban indéracinable
 * le jardinet potager symbolisé par un amandier, arbre du renouveau de la nature.
 
-![vue du jardin avec des plantes blancs pendus](/uploads/cite-2.jpg "blancs pendus")
+![](/uploads/background-15.png)
 
 La troisième partie, au sud-ouest, la tholos. La quatrième, l’agora. Telle une frise qui réveille un espace dominé par le vert des allées engazonnées, une plate-bande de fleurs vivaces ceinture ce jardin.
 
-![banc des fleures bleus et blancs](/uploads/cite-3.jpg "en bleu et blanc")
+![](/uploads/background-9.png)
