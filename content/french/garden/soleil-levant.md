@@ -1,10 +1,10 @@
 ---
-title: jardin du soleil levant
+title: Jardin du soleil levant
 summary: La lumière du matin inonde ce jardin, douce combinaison du minéral, de l'aquatique
   et du végétal.
 featuredImage:
-  src: "/uploads/lanterne-2021-03-12.jpg"
-  alt: lanterne
+  src: "/uploads/background-3.png"
+  alt: 'L''île de la tortue '
 cardImage:
   src: "/uploads/soleil-levant-2021.jpg"
 
@@ -24,9 +24,13 @@ Le deuxième, le jardin sec, expression épurée de la pensée "zen" est l'arch�
 
 Le troisième, le jardin de thé, occupe traditionnellement l'espace qui entoure le pavillon réservé à la cérémonie du thé. À l'entrée, une vasque rituelle (tsukubai) permet de se purifier les mains. À proximité un hydrangea serrata "Oamacha" a la particularité de servir d'infusion à l'occasion de l'anniversaire de la naissance de Bouddha (le 8 avril).
 
-![La vasque rituelle de purification des mains à l'entrée du jardin de thé](/uploads/background.png "Le jardin de thé")
+![](/uploads/background-16.png)
 
 Ce jardin est bercé par le chant d'une cascade.
 
 La cascade alimente un ruisseau qu'enjambe un pont rouge. Du pont, une allée de pierres de passage en "vol d'oie" conduit à une grande lanterne en granit.
 Seule compte la beauté abstraite du milieu naturel, des plantes et des pierres.
+
+![](/uploads/background-12.png)
+
+![](/uploads/background-14.png)
