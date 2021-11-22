@@ -35,8 +35,8 @@ fields:
   default: 0
   required: false
   config:
-    min: 
-    max: 
+    min: 0
+    max: 10
     step: 1
     required: false
   label: weight in menu

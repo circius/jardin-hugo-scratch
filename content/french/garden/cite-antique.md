@@ -3,7 +3,7 @@ date = ""
 menu = []
 summary = "Ce jardin clos a été conçu dans l'ancien potager de la propriété."
 title = "cité antique"
-weight = nil
+weight = 1
 [cardImage]
 alt = ""
 src = ""

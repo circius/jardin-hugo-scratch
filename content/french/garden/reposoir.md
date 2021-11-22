@@ -3,6 +3,7 @@ title: REPOSOIR DE L’HARMONIE DU SOIR
 summary:
   Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les
   floraisons se succèdent.
+weight: 1
 featuredImage:
   src: "/uploads/dionysos.jpeg"
   alt: autumnal

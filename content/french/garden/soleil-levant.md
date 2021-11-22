@@ -2,6 +2,7 @@
 title: Jardin du soleil levant
 summary: La lumière du matin inonde ce jardin, douce combinaison du minéral, de l'aquatique
   et du végétal.
+weight: 1
 featuredImage:
   src: "/uploads/background-3.png"
   alt: 'L''île de la tortue '
