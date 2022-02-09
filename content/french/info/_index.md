@@ -1,5 +1,5 @@
 ---
-title: Informations pratiques
+title: Infos Pratiques
 type: info
 layout: info-main
 menu:
