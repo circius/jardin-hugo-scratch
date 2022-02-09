@@ -407,6 +407,13 @@ a.cardlist__card__dark {
   background-color: $puce;
 }
 
+.feature__card__body > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow:hidden;
+}
+
 .feature__card__body > h3 {
   font-size: smaller;
 }
