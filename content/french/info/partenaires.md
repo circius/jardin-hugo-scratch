@@ -1,3 +1,4 @@
 ---
-title: nos partenaires
+title: aux alentours
+
 ---
