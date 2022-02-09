@@ -67,14 +67,16 @@ Ouverte toute l'année Ptarick Trublet vous accueille,
 
 patrick.trublet@jardinbretagne.com
 
-## le restaurant le Casse- Graines
+## restauration
+
+### le restaurant le Casse- Graines
 
 Stéphane Galon, notre voisin, 
 
-## pique-nique 
+### pique-nique 
 
 Une aire de pique-nique avec un espace couvert est mise à votre disposition à l'entrée des jardins. 
 
-## le salon de thé, Le Flore
+### le salon de thé, Le Flore
 
 ## boutique souvenirs et librairie horticole
