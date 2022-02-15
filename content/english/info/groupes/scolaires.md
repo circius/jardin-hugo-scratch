@@ -4,7 +4,7 @@ summary: Les visites festives ou pédagogique pour les gosses
 menu:
   main:
     name: Écoles
-    weight: 15
+    weight: 14
 
 ---
 Trois formules sont proposées pour découvrir le parc botanique de Haute Bretagne:

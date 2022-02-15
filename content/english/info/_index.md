@@ -4,7 +4,7 @@ type: info
 layout: info-main
 menu:
   main:
-    weight: 7
+    weight: 6
 
 ---
 ## nos horaires

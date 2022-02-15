@@ -2,6 +2,6 @@
 title: Chambres d'hôtes
 menu:
   main:
-    weight: 13
+    weight: 12
 
 ---

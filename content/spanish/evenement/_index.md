@@ -4,7 +4,7 @@ summary: trois grands évènements chaque année
 menu:
   main:
     name: 'Évènements '
-    weight: 10
+    weight: 9
   quicklinks:
     weight: 3
 
