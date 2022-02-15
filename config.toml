@@ -1,6 +1,6 @@
 DefaultContentLanguage = "fr"
 baseURL = "/"
-disableLanguages = ["es"]
+disableLanguages = ["es", "en"]
 languageCode = "fr-FR"
 theme = "jardin"
 [languages.en]
@@ -29,9 +29,14 @@ languageName = "Français"
 title = "Parc botanique de Haute Bretagne"
 weight = 10
 [[languages.fr.menu.quicklinks]]
+name = ""
+post = ""
+title = ""
+url = ""
+[[languages.fr.menu.quicklinks]]
 name = "elloha"
-post = "A beautiful gift for someone you love"
-title = "Give a visit"
+post = ""
+title = "Réserver une chambre d'hôte "
 url = "https://elloha.fr"
 [[languages.fr.menu.quicklinks]]
 name = "horaires"
