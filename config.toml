@@ -40,8 +40,8 @@ title = "Réserver ou offrir une chambre d'hôte "
 url = "https://elloha.fr"
 [[languages.fr.menu.quicklinks]]
 name = "horaires"
-post = "quand visiter?"
-title = "nos horaires"
+post = ""
+title = "nos horaires d'ouverture et tarifs d'entrée"
 url = "/info/#horaires"
 [markup.tableOfContents]
 endLevel = 2
