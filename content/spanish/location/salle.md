@@ -3,6 +3,6 @@ title: Receptions
 menu:
   main:
     name: Services
-    weight: 5
+    weight: 14
 
 ---

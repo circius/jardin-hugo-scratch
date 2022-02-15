@@ -4,6 +4,6 @@ name: jardins
 showChildrenInMenu: true
 menu:
   main:
-    weight: 2
+    weight: 11
 
 ---

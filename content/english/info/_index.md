@@ -1,10 +1,12 @@
 ---
 title: Informations pratiques
-menu: "main"
 type: info
 layout: info-main
----
+menu:
+  main:
+    weight: 7
 
+---
 ## nos horaires
 
 **NOUS SOMMES OUVERTS** du 1ère mars au 15ième novembre:

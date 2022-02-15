@@ -1,6 +1,10 @@
 ---
 title: Quelques Jardins
 name: jardins
-menu: main
 showChildrenInMenu: true
+menu:
+  main:
+    name: Les jardins
+    weight: 8
+
 ---

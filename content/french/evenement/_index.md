@@ -1,5 +1,10 @@
 ---
 title: Évènements
 summary: trois grands évènements chaque année
-menu: [quicklinks, main]
+menu:
+  main:
+    weight: 6
+  quicklinks:
+    weight: 1
+
 ---
