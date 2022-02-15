@@ -29,11 +29,6 @@ languageName = "Français"
 title = "Parc botanique de Haute Bretagne"
 weight = 10
 [[languages.fr.menu.quicklinks]]
-name = ""
-post = ""
-title = ""
-url = ""
-[[languages.fr.menu.quicklinks]]
 name = "elloha"
 post = ""
 title = "Réserver ou offrir une chambre d'hôte "
