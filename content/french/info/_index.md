@@ -1,5 +1,5 @@
 ---
-title: Infos Pratiques
+title: Informations pratiques
 type: info
 layout: info-main
 menu:
@@ -7,7 +7,7 @@ menu:
     weight: 3
 
 ---
-## nos horaires
+## Horaires d'ouverture
 
 **NOUS SOMMES OUVERTS** du 1er mars au 15 novembre:
 
@@ -15,7 +15,7 @@ menu:
 * **En avril, mai, juin et septembre** de 11h à 18h
 * **En juillet et août** de 10h30 à 18h30
 
-## tarifs
+## Tarifs
 
 {{< bootstrap-table >}}
 
@@ -51,7 +51,7 @@ Les **chiens** tenus en laisse sont les bienvenus.
 s'applique aux 13-18 ans, allocataires des minimas sociaux,
 demandeurs d’emploi, et porteurs d’un handicap
 
-## nous trouver
+## Nous trouver
 
 Le parc botanique de Haute Bretagne est implanté sur la commune du Châtellier (35133)
 
@@ -62,22 +62,22 @@ L’accès au parc est fléché depuis
 * la sortie 30 de l’autoroute A84 (panneaux PARC BOTANIQUE, direction St Germain en Coglès puis Le Châtellier)
 * la sortie 31 de l’autoroute A 84 (panneaux PARC BOTANIQUE, direction Montours puis Le Châtellier)
 
-## la jardinerie
+## La jardinerie
 
-Ouverte toute l'année Ptarick Trublet vous accueille, 
+Ouverte toute l'année Ptarick Trublet vous accueille,
 
 patrick.trublet@jardinbretagne.com
 
-## restauration
+## Restauration
 
 ### le restaurant le Casse- Graines
 
-Stéphane Galon, notre voisin, 
+Stéphane Galon, notre voisin,
 
-### pique-nique 
+### pique-nique
 
-Une aire de pique-nique avec un espace couvert est mise à votre disposition à l'entrée des jardins. 
+Une aire de pique-nique avec un espace couvert est mise à votre disposition à l'entrée des jardins.
 
 ### le salon de thé, Le Flore
 
-## boutique souvenirs et librairie horticole
+## Boutique souvenirs et librairie horticole
