@@ -28,4 +28,4 @@ _Situé aux portes de la Bretagne, un jardin romantique et raffiné aménagé au
 
 ![](/uploads/tourbiere_de_landemarais.jpg)
 
-S_ituée à 10 km a l'Est du Château de la Foltière, à Parigné. C’est l’une des trois tourbières bombées de Bretagne, alimentées par l’eau de pluie. Protégé et aménagé par le Département, le site s’étend sur 26 hectares. Elle est classé « tourbière d’intérêt national » pour sa grande qualité écologique._
+Située à 10 km a l'Est du Château de la Foltière, à Parigné. C’est l’une des trois tourbières bombées de Bretagne, alimentées par l’eau de pluie. Protégé et aménagé par le Département, le site s’étend sur 26 hectares. Elle est classé « tourbière d’intérêt national » pour sa grande qualité écologique._
