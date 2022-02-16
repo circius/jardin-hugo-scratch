@@ -5,6 +5,6 @@ showChildrenInMenu: true
 menu:
   main:
     name: Les jardins
-    weight: 4
+    weight: 3
 
 ---

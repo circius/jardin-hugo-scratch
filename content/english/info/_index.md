@@ -2,9 +2,6 @@
 title: Informations pratiques
 type: info
 layout: info-main
-menu:
-  main:
-    weight: 6
 
 ---
 ## nos horaires

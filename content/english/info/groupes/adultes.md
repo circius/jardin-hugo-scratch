@@ -4,7 +4,7 @@ summary: Nos formules pour les visites en groupe
 menu:
   main:
     name: Groupes
-    weight: 15
+    weight: 5
 
 ---
 Trois formules sont proposées pour les groupes à partir de 20 personnes:

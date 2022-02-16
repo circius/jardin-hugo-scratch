@@ -4,7 +4,7 @@ type: info
 layout: info-main
 menu:
   main:
-    weight: 3
+    weight: 2
 
 ---
 ## Horaires d'ouverture
