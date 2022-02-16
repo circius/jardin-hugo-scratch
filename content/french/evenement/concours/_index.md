@@ -1,8 +1,8 @@
 ---
 title: PÂQUES
 featuredImage:
-  src: "/uploads/autumnal-2021-03-13.jpg"
-  alt: autumnal
+  src: "/uploads/main.png"
+  alt: oeufs en chocolat posés sur l'herbe
 layout: eventpage
 
 ---
