@@ -1,6 +1,8 @@
 ---
 title: groupes d'adultes
 summary: Nos formules pour les visites en groupe
+featuredImage:
+  src: "/uploads/background-19.png"
 
 ---
 Trois formules sont proposées pour les groupes à partir de 20 personnes:
