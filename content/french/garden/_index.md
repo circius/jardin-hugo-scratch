@@ -1,5 +1,5 @@
 ---
-title: Jardins
+title: PLAN DES JARDINS
 name: jardins
 showChildrenInMenu: true
 menu:
@@ -8,3 +8,4 @@ menu:
     weight: 3
 
 ---
+![](/uploads/background-22.png)
