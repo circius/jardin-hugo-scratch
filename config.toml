@@ -1,6 +1,6 @@
 DefaultContentLanguage = "fr"
 baseURL = "/"
-disableLanguages = ["es", "en"]
+disableLanguages = ["es"]
 languageCode = "fr-FR"
 theme = "jardin"
 [languages.en]
