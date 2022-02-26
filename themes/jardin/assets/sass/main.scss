@@ -321,7 +321,7 @@ figure.image {
   @extend .mb-5;
 }
 
-a.cardlist__card {
+.cardlist__card {
   @extend .card;
   @extend .my-1;
   @extend .w-100;
@@ -331,7 +331,8 @@ a.cardlist__card {
 }
 
 a.cardlist__card__dark {
-  @extend a.cardlist__card;
+  @extend a;
+  @extend .cardlist__card;
   text-decoration: none;
   color: $white;
   @extend .bg-dark;
@@ -411,7 +412,7 @@ a.cardlist__card__dark {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .feature__card__body > h3 {
