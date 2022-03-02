@@ -1,6 +1,6 @@
 ---
 subtitle: Bienvenue aux jardins
-announcement: URGENT TEMPORARY ANNOUNCEMENT -> [ici](/en/info/groupes/)
+announcement: ''
 feature:
 - Params:
     featuredimage:
