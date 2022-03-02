@@ -1,12 +1,12 @@
 ---
 subtitle: Bienvenue aux jardins
-announcement: test announcement
+announcement: ''
 feature:
 - Params:
     featuredimage:
       src: "/uploads/dionysos.jpeg"
       alt: dionysos!
-  Title: nous sommes ouverts!
-  Summary: Finalement on est la pour vous! Voir nos [horaires](/info/#horaires).
+  Title: We're open!
+  Summary: " See our [hours](/info/#horaires)."
 
 ---
