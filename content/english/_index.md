@@ -1,6 +1,6 @@
 ---
 subtitle: Bienvenue aux jardins
-announcement: ''
+announcement: test announcement
 feature:
 - Params:
     featuredimage:
