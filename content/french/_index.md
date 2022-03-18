@@ -2,6 +2,12 @@
 subtitle: Un dédale de jardins à découvrir au fil des saisons
 announcement: ''
 feature:
+- Title: Pâques
+  Summary: ''
+  Params:
+    featuredimage:
+      src: ''
+      alt: ''
 - Params:
     featuredimage:
       src: "/uploads/dionysos.jpeg"
