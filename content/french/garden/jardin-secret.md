@@ -22,3 +22,5 @@ Il se compose de deux terrasses que surplombe un escalier à double révolution.
 La première, encadrée d’une haie de camélias champêtres, est découpée par quatre bassins formant les contours angulaires d’un carré; elle est ornée, en son centre, d’une vasque aux lions sculptés, au carrefour de deux allées engazonnées découpant quatre carrés de topiaires.
 
 La seconde terrasse est occupée par un bassin carré entouré d’une haie basse de camellias sasanqua ‘Early Pearly’; elle est ceinturée par une arcade de cyprès de Leyland surmontée, au centre, d’un fronton triangulaire.
+
+![](/uploads/camellia-sasanqua-early-pearly.png)
