@@ -9,8 +9,8 @@ weight = 0
 alt = ""
 src = ""
 [featuredImage]
-alt = ""
-src = ""
+alt = "cabinet de verdure"
+src = "/uploads/background-4.png"
 
 +++
 {{< quote author="Antoine de NERVEZE, les essais poétiques, 1605, sonnet XIX, p.10"  >}} J'aime la solitude et me rends solitaire<br/> Pour penser librement à mes belles amours,<br/> Je cherche les forêts et les lieux les plus sourds<br/> Pour leur dire les maux qu'aux mortels je veux taire.<br/> {{< /quote >}}
