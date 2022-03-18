@@ -2,8 +2,8 @@
 date = ""
 draft = true
 menu = []
-summary = ""
-title = "Jardin secret "
+summary = "Cabinet de verdure, inspiré des cloîtres des monastères médiévaux en Italie"
+title = "JARDIN SECRET "
 weight = 0
 [cardImage]
 alt = ""
@@ -13,15 +13,7 @@ alt = ""
 src = ""
 
 +++
-« J'aime la solitude et me rends solitaire
-
-Pour penser librement à mes belles amours,
-
-Je cherche les forêts et les lieux les plus sourds
-
-Pour leur dire les maux qu'aux mortels je veux taire. » 
-
-Antoine de NERVEZE, les essais poétiques, 1605, sonnet XIX, p.10
+{{< quote author="Antoine de NERVEZE, les essais poétiques, 1605, sonnet XIX, p.10"  >}} J'aime la solitude et me rends solitaire<br/> Pour penser librement à mes belles amours,<br/> Je cherche les forêts et les lieux les plus sourds<br/> Pour leur dire les maux qu'aux mortels je veux taire.<br/> {{< /quote >}}
 
 Le jardin secret, ceint de haies, est une réminiscence du «giardino segreto», cabinet de verdure, inspiré des cloîtres des monastères médiévaux en Italie.
 
