@@ -6,7 +6,7 @@ feature:
     featuredimage:
       src: "/uploads/dionysos.jpeg"
       alt: Jardin de Dionysos
-  Title: VISITER
+  Title: Visiter
   Summary: 'Nos jardins sont ouverts au public tous les jours du 1er mars au 15 novembre.
     Voir nos [horaires](/info/#horaires) d''ouverture et [tarifs](/info/#tarifs) d''entrée.
 
