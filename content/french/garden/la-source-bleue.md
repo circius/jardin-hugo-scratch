@@ -13,15 +13,7 @@ alt = ""
 src = ""
 
 +++
-«  Ce qui l'attira d'une manière irrésistible,
-
-ce fut, dressée au bord même de la source,
-
-une grande Fleur d'un bleu éthéré
-
-qui l'effleurait de ses hauts pétales éclatants. »
-
-NOVALIS, "Heinrich von Ofterdingen »
+{{< quote author="NOVALIS, "Heinrich von Ofterdingen"  >}} Ce qui l'attira d'une manière irrésistible,<br/> ce fut, dressée au bord même de la source,<br/> une grande Fleur d'un bleu éthéré<br/> qui l'effleurait de ses hauts pétales éclatants.<br/> {{< /quote >}}
 
 Plein sud, face à la demeure de 1836, le jardin a été imaginé dans le respect de la période romantique qui se prête à la rêverie, à la contemplation bucolique d’essences exotiques rapportées de voyages.
 
