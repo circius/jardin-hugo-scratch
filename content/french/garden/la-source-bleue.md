@@ -13,13 +13,13 @@ alt = ""
 src = ""
 
 +++
-«  Ce qui l'attira d'une manière irrésistible, 
+«  Ce qui l'attira d'une manière irrésistible,
 
 ce fut, dressée au bord même de la source,
 
-une grande Fleur d'un bleu éthéré 
+une grande Fleur d'un bleu éthéré
 
-qui l'effleurait de ses hauts pétales éclatants. » 
+qui l'effleurait de ses hauts pétales éclatants. »
 
 NOVALIS, "Heinrich von Ofterdingen »
 
@@ -30,3 +30,5 @@ Sous les frondaisons des eucalyptus, un pont bleu, bordé de massifs d’hydrang
 Ce jardin s’ouvre sur une pièce d’eau. Les allées sinueuses sont bordées de blocs erratiques de granit et de plantes vivaces offrant toute une gamme de bleus. Des bouquets d’agapanthes, d’iris de Sibérie, de géraniums, d’asters, de centaurées, de véroniques, de sauges…sont dressés au bord du bassin.
 
 A l’est, les palmiers et cordylines offrent à la pensée la possibilité de s’évader vers des horizons lointains.
+
+![](/uploads/hydrangea-macrophylla-blaumeise.png)
