@@ -2,7 +2,7 @@
 date = ""
 menu = []
 summary = "Ce jardin clos a été conçu dans l'ancien potager de la propriété."
-title = "LA CITÉ ANTIQUE "
+title = "Jardin 2: LA CITÉ ANTIQUE "
 weight = 1
 [cardImage]
 alt = ""
