@@ -1,14 +1,13 @@
 ---
-title: REPOSOIR DE L’HARMONIE DU SOIR
-summary:
-  Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les
+title: 'n°7: LE REPOSOIR DE L’HARMONIE DU SOIR'
+summary: Ce jardin dévoile une collection de kalmias et de rosiers moschata dont les
   floraisons se succèdent.
 weight: 1
 featuredImage:
   src: "/uploads/dionysos.jpeg"
   alt: autumnal
----
 
+---
 {{< quote author="Charles Baudelaire"  >}}
 Voici venir le temps où vibrant sur sa tige<br/>
 Chaque fleur s’évapore ainsi qu’un encensoir...<br/>
