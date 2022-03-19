@@ -2,7 +2,7 @@
 date = ""
 draft = true
 menu = []
-summary = "Cabinet de verdure, inspiré des cloîtres des monastères médiévaux en Italie"
+summary = "Ce cabinet de verdure est inspiré des cloîtres des monastères médiévaux en Italie"
 title = "JARDIN SECRET "
 weight = 0
 [cardImage]
