@@ -80,4 +80,4 @@ Une aire de pique-nique avec un espace couvert est mise à votre disposition à 
 
 ### le salon de thé, Le Flore
 
-## Boutique souvenirs et librairie horticole
+## Périodes de floraison
