@@ -13,17 +13,11 @@ alt = ""
 src = ""
 
 +++
-"...La mélancolie
-
-Berce de doux chants
-
-Mon coeur qui s'oublie
-
-Aux soleils couchants..."
-
-VERLAINE, Soleils couchants, 5-8
+{{< quote author="VERLAINE, Soleils couchants, 5-8"  >}} ...La mélancolie<br/> Berce de doux chants<br/> Mon coeur qui s'oublie<br/> Aux soleils couchants...<br/> {{< /quote >}}
 
 Miroir de la façade nord du château, ce jardin reçoit la lumière du soleil couchant.
+
+![](/uploads/au-soleil-couchant-les-alstromeres-jaunes-en-fleurs.png)
 
 Il est bordé d'une haie de camélias ‘Spring Festival’ à port fastigié. Une terrasse en glacis forme un arc de cercle. Elle est plantée de végétaux aux floraisons jaune intense. De nombreux rosiers, des azalées caduques et des rhododendrons nains, des alstroemères, des hémérocalles composent la palette des principales essences.
 
