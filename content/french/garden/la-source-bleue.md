@@ -3,7 +3,7 @@ date = ""
 draft = true
 menu = []
 summary = "Ce jardin a été imaginé dans le respect de la période romantique qui se prête à la rêverie, à la contemplation bucolique d’essences exotiques rapportées de voyages."
-title = "LA SOURCE BLEUE"
+title = "n°11: LA SOURCE BLEUE"
 weight = 0
 [cardImage]
 alt = ""
