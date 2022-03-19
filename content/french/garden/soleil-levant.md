@@ -1,5 +1,5 @@
 ---
-title: 'JARDIN DU SOLEIL LEVANT '
+title: 'jardin n°9: JARDIN DU SOLEIL LEVANT '
 summary: La lumière du matin inonde ce jardin, douce combinaison du minéral, de l'aquatique
   et du végétal.
 weight: 1
