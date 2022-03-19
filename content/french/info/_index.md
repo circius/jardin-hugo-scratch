@@ -55,6 +55,8 @@ demandeurs d’emploi, et porteurs d’un handicap
 
 Le parc botanique de Haute Bretagne est implanté sur la commune du Châtellier (35133)
 
+![](/uploads/carte-gps.jpg)
+
 coordonnées GPS: Long -1,263041 O ; Lat 48,430703 N (<a href="geo:-1,263041,48,430703">geo-link</a>)
 
 L’accès au parc est fléché depuis
@@ -64,7 +66,7 @@ L’accès au parc est fléché depuis
 
 ## La jardinerie
 
-Ouverte toute l'année Ptarick Trublet vous accueille,
+Ouverte toute l'année Patrick Trublet vous accueille,
 
 patrick.trublet@jardinbretagne.com
 
@@ -72,12 +74,20 @@ patrick.trublet@jardinbretagne.com
 
 ### le restaurant le Casse- Graines
 
-Stéphane Galon, notre voisin,
+Stéphane Galon, maître restaurateur, vous propose une cuisine locale et de saison dans son restaurant le Casse-Graine installé dans l’ancienne métairie du château. 
+
+À noter, le parc et le restaurant sont deux entreprises distinctes qui collaborent. Pour toutes informations contactez: 
+
+contact@restaurant-fougeres.fr ou le 02 99 99 14 17
+
+[https://www.restaurant-fougeres.com/le-casse-graines](https://www.restaurant-fougeres.com/le-casse-graines "https://www.restaurant-fougeres.com/le-casse-graines")
 
 ### pique-nique
 
 Une aire de pique-nique avec un espace couvert est mise à votre disposition à l'entrée des jardins.
 
 ### le salon de thé, Le Flore
+
+Au rez-de-chaussée du château, prenez le temps d'une pause gourmande et poétique en dégustant le paysage avec les yeux. 
 
 ## Périodes de floraison
